@@ -1,0 +1,15 @@
+steps:
+  - name: Checkout repository
+    uses: actions/checkout@v3
+
+  - name: Set up Ruby
+    uses: ruby/setup-ruby@v1
+    with:
+      ruby-version: 3.0 
+      bundler-cache: true
+
+  - name: Install dependencies
+    run: bundle install
+
+  - name: Build the site
+    run: bundle exec jekyll build
