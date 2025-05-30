@@ -2,16 +2,18 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>the Technical University of Berlin</a>, 10587 Berlin, Germany.
+subtitle: |
+  <a href="https://www.tu.berlin/en/">the Technical University of Berlin</a>, 10587 Berlin, Germany.<br>
+  <a href="https://www.pik-potsdam.de/en/home">Potsdam Institute for Climate Impact Research</a>, 14473 Potsdam, Germany
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+#    <p>555 your office number</p>
+#    <p>123 your address street</p>
+#    <p>Your City, State 12345</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -37,4 +39,4 @@ latest_posts:
 
 I am currently pursuing his Ph.D. degree with the Department of Computer Science at the Technical University of Berlin, Berlin, Germany, under the supervision of [Prof. Klaus-Robert Müller](https://web.ml.tu-berlin.de/author/prof.-dr.-klaus-robert-muller/)  and [Prof. Jürgen Kurths](https://www.pik-potsdam.de/members/kurths/homepage).
 
-Concurrently, I am engaged in research at the Potsdam Institute for Climate Impact Research, Potsdam, Germany, focusing on complexity science. His research interests are centered around complex networks, graph-based machine learning, and their applications.
+Concurrently, I am engaged in research at the Potsdam Institute for Climate Impact Research, Potsdam, Germany, focusing on complexity science. My research interests are centered around complex networks, graph-based machine learning, and their applications.
