@@ -5,4 +5,5 @@ inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+[//]: # (A simple inline announcement with Markdown emoji! :sparkles: :smile:)
+One paper on graph representation learning is accepted to 
