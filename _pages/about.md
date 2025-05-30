@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: |
-  <a href="https://www.tu.berlin/en/">the Technical University of Berlin</a>, 10587 Berlin, Germany.<br>
+  <a href="https://www.tu.berlin/en/">Technical University of Berlin</a>, 10587 Berlin, Germany.<br>
   <a href="https://www.pik-potsdam.de/en/home">Potsdam Institute for Climate Impact Research</a>, 14473 Potsdam, Germany
 
 profile:
