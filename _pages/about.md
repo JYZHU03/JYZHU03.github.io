@@ -35,6 +35,6 @@ latest_posts:
 [//]: # ()
 [//]: # (Link to your social media connections, too. This theme is set up to use [Font Awesome icons]&#40;https://fontawesome.com/&#41; and [Academicons]&#40;https://jpswalsh.github.io/academicons/&#41;, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.)
 
-I am is currently pursuing his Ph.D. degree with the Department of Computer Science at the Technical University of Berlin, Berlin, Germany, under the supervision of Prof. Klaus-Robert Müller and Prof. Jürgen Kurths.
+I am currently pursuing his Ph.D. degree with the Department of Computer Science at the Technical University of Berlin, Berlin, Germany, under the supervision of [Prof. Klaus-Robert Müller](https://web.ml.tu-berlin.de/author/prof.-dr.-klaus-robert-muller/)  and [Prof. Jürgen Kurths](https://www.pik-potsdam.de/members/kurths/homepage).
 
-Concurrently, he is engaged in research at the Potsdam Institute for Climate Impact Research, Potsdam, Germany, focusing on complexity science. His research interests are centered around complex networks, graph-based machine learning, and their applications.
+Concurrently, I am engaged in research at the Potsdam Institute for Climate Impact Research, Potsdam, Germany, focusing on complexity science. His research interests are centered around complex networks, graph-based machine learning, and their applications.
