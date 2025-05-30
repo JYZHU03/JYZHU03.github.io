@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>the Technical University of Berlin</a>, 10587 Berlin, Germany.
 
 profile:
   align: right
