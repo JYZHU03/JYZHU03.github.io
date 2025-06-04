@@ -17,14 +17,22 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Junyou Zhu dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+I am a Ph.D. candidate in the Department of Computer Science at Technische Universität Berlin, supervised by [Prof. Klaus-Robert Müller](https://web.ml.tu-berlin.de/author/prof.-dr.-klaus-robert-muller/) and [Prof. Jürgen Kurths](https://www.pik-potsdam.de/members/kurths/homepage).
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+In parallel, I am a doctoral researcher at the Potsdam Institute for Climate Impact Research (PIK), working on the project “Explainable AI for Dynamic Stability Assessment” under the guidance of [Dr. Frank Hellmann](https://www.pik-potsdam.de/members/hellmann)
 
+My research is situated at the intersection of artificial intelligence, graph theory, and data mining, with a particular emphasis on graph-structured data. Current topics include:
+- Graph Representation Learning (GRL) problems, such as node classification, link prediction, and graph classification.
+- Generative models for graphs, e.g., diffusion models for GRL.
+- AI for scientific problems, including the prediction of dynamic stability in complex networks, and the pattern mining of extreme climate events.
+
+Previously, I have also investigated community detection in complex networks.
+
+Feel free to reach out if you’re interested in collaborating on anything.
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.05*: &nbsp;🎉🎉 One paper on graph representation learning is accepted to ICML2025! 
+- *2024.07*: &nbsp;🎉🎉 One paper on graph representation learning is accepted to KDD2024! 
 
 # 📝 Publications 
 
