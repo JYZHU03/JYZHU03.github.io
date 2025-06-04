@@ -54,7 +54,7 @@ in Proceedings of the 42*nd* International Conference on Machine Learning. *(ICM
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2025</div><img src='images/KDD2024.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2024</div><img src='images/KDD2024.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 Propagation Structure-Aware Graph Transformer for Robust and Interpretable Fake News Detection 
@@ -64,6 +64,58 @@ Propagation Structure-Aware Graph Transformer for Robust and Interpretable Fake 
 In Proceedings of the 30*th* ACM SIGKDD Conference on Knowledge Discovery and Data Mining. *(KDD 2024, CCF-A, Oral Paper)*
 
 [Paper Link](https://dl.acm.org/doi/abs/10.1145/3637528.3672024)
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TCYB</div><img src='images/IEEE TCYB.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+A Novel Representation Learning For Dynamic Graphs Based On Graph Convolutional Networks
+
+Chao Gao, **Junyou Zhu**, Fan Zhang, Zhen Wang, Xuelong Li
+
+IEEE Transactions on Cybernetics 53.6 (2023): 3599-3612.
+
+[Paper Link](https://ieeexplore.ieee.org/abstract/document/9743367)
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TNSE</div><img src='images/IEEE TNSE.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Community Detection in Graph: An Embedding Method
+
+**Junyou Zhu**, Chunyu Wang, Chao Gao, Fan Zhang, Zhen Wang, Xuelong Li
+
+IEEE Transactions on Network Science and Engineering 9.2 (2022): 689-702.
+
+[Paper Link](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9626627)
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NJP</div><img src='images/NJP.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Unsupervised Community Detection In Attributed Networks Based On Mutual Information Maximization
+
+**Junyou Zhu**, Xianghua Li, Chao Gao, Zhen Wang, Jurgen Kurths
+
+New Journal of Physics 23.11 (2021): 113016.
+
+[Paper Link](https://iopscience.iop.org/article/10.1088/1367-2630/ac2fbd/pdf)
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TKDE</div><img src='images/IEEE TKDE_Community.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Evolutionary Markov Dynamics For Network Community Detection
+
+Zhen Wang, Chunyu Wang, Xianghua Li, Chao Gao, Xuelong Li, **Junyou Zhu**
+
+IEEE Transactions on Knowledge and Data Engineering 34.3 (2022): 1206-1220.
+
+[Paper Link](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9099469)
 </div>
 </div>
 
