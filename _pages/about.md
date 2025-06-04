@@ -23,18 +23,18 @@ In parallel, I am a doctoral researcher at the Potsdam Institute for Climate Imp
 My research is situated at the intersection of artificial intelligence, graph theory, and data mining, with a particular emphasis on graph-structured data. Current topics include:
 - Graph Representation Learning (GRL) problems, such as node classification, link prediction, and graph classification.
 - Generative models for graphs, e.g., diffusion models for GRL.
-- AI for scientific problems, including the prediction of dynamic stability in complex networks, and the pattern mining of extreme climate events.
+- AI for scientific problems, including the dynamic stability prediction in complex networks, and the pattern mining of extreme climate events.
 
 Please feel free to contact me if you are interested in any collaboration.
 
 # 🔥 News
 - *05.2025*: &nbsp;🎉🎉 One paper on graph representation learning was accepted to ICML 2025! 
 - *04.2025*: &nbsp; I have officially joined the ‘Explainable AI for Dynamic Stability Assessment’ project at PIK!
-- *03.2025*: &nbsp; One paper on AI for Power Grids was submitted to IEEE TKDE. 
+- *03.2025*: &nbsp; One paper on AI for power grids was submitted to IEEE TKDE. 
 - *05.2024*: &nbsp;🎉🎉 One paper on graph-based fake news detection is accepted to KDD 2024!
 
 
-# 📝 Publications 
+# 📝 Selected Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2025</div><img src='images/ICML2025.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -74,7 +74,7 @@ In Proceedings of the 30*th* ACM SIGKDD Conference on Knowledge Discovery and Da
 
 Chao Gao, **Junyou Zhu**, Fan Zhang, Zhen Wang, Xuelong Li
 
-IEEE Transactions on Cybernetics 53.6 (2023): 3599-3612.
+IEEE Transactions on Cybernetics 53.6 (2023): 3599-3612. *(IF: 9.4, JCR Q1, CCF-B)*
 
 [Paper Link](https://ieeexplore.ieee.org/abstract/document/9743367)
 </div>
@@ -87,7 +87,7 @@ IEEE Transactions on Cybernetics 53.6 (2023): 3599-3612.
 
 **Junyou Zhu**, Chunyu Wang, Chao Gao, Fan Zhang, Zhen Wang, Xuelong Li
 
-IEEE Transactions on Network Science and Engineering 9.2 (2022): 689-702.
+IEEE Transactions on Network Science and Engineering 9.2 (2022): 689-702. *(IF: 6.7, JCR Q1)*
 
 [Paper Link](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9626627)
 </div>
@@ -100,7 +100,7 @@ IEEE Transactions on Network Science and Engineering 9.2 (2022): 689-702.
 
 **Junyou Zhu**, Xianghua Li, Chao Gao, Zhen Wang, Jurgen Kurths
 
-New Journal of Physics 23.11 (2021): 113016.
+New Journal of Physics 23.11 (2021): 113016. *(IF: 2.8, JCR Q2)*
 
 [Paper Link](https://iopscience.iop.org/article/10.1088/1367-2630/ac2fbd/pdf)
 </div>
@@ -113,9 +113,22 @@ New Journal of Physics 23.11 (2021): 113016.
 
 Zhen Wang, Chunyu Wang, Xianghua Li, Chao Gao, Xuelong Li, **Junyou Zhu**
 
-IEEE Transactions on Knowledge and Data Engineering 34.3 (2022): 1206-1220.
+IEEE Transactions on Knowledge and Data Engineering 34.3 (2022): 1206-1220. *(IF: 8.9, JCR Q1, CCF-A)*
 
 [Paper Link](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9099469)
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCNN 2021</div><img src='images/IJCNN 2021.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Unsupervised Dynamic Network Embedding Using Global Information**
+
+**Junyou Zhu**, Zheng Luo, Fan Zhang, Haiqiang Wang, Jiaxin Wang, Chao Gao
+
+In 2021 International Joint Conference on Neural Networks *(IJCNN 2021, CCF-C, Oral Paper)*
+
+[Paper Link](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9533668)
 </div>
 </div>
 
