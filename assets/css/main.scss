@@ -51,8 +51,8 @@
 
   /* 一、固定图片容器大小 */
   .paper-box-image {
-    width: 200px;   /* 容器固定宽度 */
-    height: 200px;  /* 容器固定高度 */
+    width: 300px;   /* 容器固定宽度 */
+    height: 300px;  /* 容器固定高度 */
     flex: none;     /* 不跟随 flex 行为收缩/撑开 */
     display: flex;
     justify-content: center;
