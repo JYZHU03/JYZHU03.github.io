@@ -49,62 +49,51 @@
   border-bottom: 1px #efefef solid;
   padding: 2em 0;
 
-  /* —— 固定图片容器大小 —— */
+  /* 一、固定图片容器大小 */
   .paper-box-image {
-    /* 1. 定一个死宽高（所有文章都相同） */
     width: 200px;   /* 容器固定宽度 */
     height: 200px;  /* 容器固定高度 */
-    /* 2. 禁止 flex 项被挤压/拉伸： */
     flex: none;     /* 不跟随 flex 行为收缩/撑开 */
-    /* 3. 用 flex 让里面的 <img> 垂直水平居中 */
     display: flex;
     justify-content: center;
     align-items: center;
-    /* 4. 给每张图片容器和文字之间留一个固定的右侧间距 */
     margin-right: 1.5em;
-    /* 如果你想在大屏时稍微增大间距，可以在 breakpoint 里改 */
+    position: relative; /* 为了让 .badge 定位在左上 */
 
-    /* —— 下面是针对 img 的约束 —— */
+    /* —— 下面是针对 img 的修改 —— */
     img {
-      max-width: 100%;       /* 不会超过容器宽度（200px） */
-      max-height: 100%;      /* 不会超过容器高度（200px） */
-      object-fit: contain;   /* 等比缩放、完整显示，不裁剪 */
-      background-color: #fff;/* 如果图片比例与容器不符，留白处显示白底 */
+      width: 100%;        /* 强制图片宽度铺满容器 */
+      height: 100%;       /* 强制图片高度铺满容器 */
+      object-fit: cover;  /* 按比例裁剪，保证铺满且无空白 */
+      background-color: #fff;
       box-shadow: 3px 3px 6px #888;
-      display: block;        /* 消掉 img 自带的底部空隙 */
+      display: block;
     }
   }
 
-  /* 文字那一块：让它占剩下的空间即可 */
+  /* 二、文字部分占剩余空间 */
   .paper-box-text {
-    /* 文字区不用写死宽度，flex 排版时自动横向剩余 */
     flex: 1;
-    line-height: 1.5;       /* 适当行距，便于阅读 */
+    line-height: 1.5;
     order: 2;
   }
 
   @include breakpoint($medium) {
-    /* —— 中等及以上屏幕 —— */
     .paper-box-image {
-      /* 如果你希望在大屏上让文字占 60%、图片占 40%，可以改 flex */
-      /* 但因为我们把图片容器写死 200px×200px，通常不会按百分比分布 */
-      /* 这里只需要保证 margin-right 稍微增大即可 */
       margin-right: 2em;
       order: 1;
-      /* container 本身依旧是 200×200 不变 */
+      /* 容器依旧 200×200，不需要改 */
     }
-
     .paper-box-text {
-      /* 强制文字区最多占 60%，防止它太宽追不上布局 */
       max-width: 60%;
       order: 2;
       justify-content: flex-start;
-      padding-left: 0; /* margin-right 已经给了间距，这里不需要多余内边距 */
+      padding-left: 0;
     }
   }
 }
 
-/* badge 样式无需改动，保持它绝对定位在图片左上即可 */
+/* badge 样式保持不动 */
 .badge {
   padding-left: 1rem;
   padding-right: 1rem;
