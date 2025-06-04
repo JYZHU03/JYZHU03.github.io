@@ -17,8 +17,8 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a third-year Ph.D. candidate in the Department of Computer Science at Technische Universität Berlin, supervised by [Prof. Klaus-Robert Müller](https://web.ml.tu-berlin.de/author/prof.-dr.-klaus-robert-muller/) and [Prof. Jürgen Kurths](https://www.pik-potsdam.de/members/kurths/homepage). 
-In parallel, I am a doctoral researcher at the Potsdam Institute for Climate Impact Research (PIK), working on the project “Explainable AI for Dynamic Stability Assessment” under the guidance of [Dr. Frank Hellmann](https://www.pik-potsdam.de/members/hellmann)
+I am a third-year Ph.D. candidate in the Department of Computer Science at Technische Universität Berlin, supervised by [**Prof. Klaus-Robert Müller**](https://web.ml.tu-berlin.de/author/prof.-dr.-klaus-robert-muller/) and [**Prof. Jürgen Kurths**](https://www.pik-potsdam.de/members/kurths/homepage). 
+In parallel, I am a doctoral researcher at the Potsdam Institute for Climate Impact Research (PIK), working on the project “Explainable AI for Dynamic Stability Assessment” under the guidance of [**Dr. Frank Hellmann**](https://www.pik-potsdam.de/members/hellmann)
 
 My research is situated at the intersection of artificial intelligence, graph theory, and data mining, with a particular emphasis on graph-structured data. Current topics include:
 - Graph Representation Learning (GRL) problems, such as node classification, link prediction, and graph classification.
@@ -28,10 +28,10 @@ My research is situated at the intersection of artificial intelligence, graph th
 Please feel free to contact me if you are interested in any collaboration.
 
 # 🔥 News
-- *05.2025*: &nbsp;🎉🎉 One paper on graph representation learning was accepted to ICML2025! 
+- *05.2025*: &nbsp;🎉🎉 One paper on graph representation learning was accepted to ICML 2025! 
 - *04.2025*: &nbsp; I have officially joined the ‘Explainable AI for Dynamic Stability Assessment’ project at PIK!
 - *03.2025*: &nbsp; One paper on AI for Power Grids was submitted to IEEE TKDE. 
-- *05.2024*: &nbsp;🎉🎉 One paper on graph-based fake news detection is accepted to KDD2024!
+- *05.2024*: &nbsp;🎉🎉 One paper on graph-based fake news detection is accepted to KDD 2024!
 
 
 # 📝 Publications 
