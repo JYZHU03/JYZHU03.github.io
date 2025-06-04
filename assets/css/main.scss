@@ -37,33 +37,34 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
+
 .paper-box {
   display: flex;
-  justify-content: flex-start;  /* 图片与文字默认左对齐 */
+  justify-content: flex-start;  /* 图片与文字左对齐 */
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
   border-bottom: 1px #efefef solid;
   padding: 2em 0;
 
-  /* 图片那一块 */
+  /* —— 图片那一块：容器固定为 200px × 200px —— */
   .paper-box-image {
-    display: flex;
-    justify-content: center;   /* 图片在容器水平居中 */
-    align-items: center;       /* 垂直居中 */
-
-    /* —— 固定容器宽高为 200px × 200px —— */
+    /* 始终固定为 200×200，不随屏幕改变 */
     width: 200px;
     height: 200px;
-    position: relative;  /* 如果有 .badge 需要绝对定位，保留这一行 */
+    position: relative;  /* 如果有 .badge 要绝对定位，则保留 */
 
-    /* 右侧留白给文字 */
+    display: flex;
+    justify-content: center;  /* 图片在容器中水平居中 */
+    align-items: center;      /* 垂直居中 */
+
+    /* 容器外部与文字部分的间距 */
     margin-right: 1.5em;
 
-    /* —— img 部分改为“铺满裁剪” —— */
+    /* —— img 部分：铺满 & 裁剪 —— */
     img {
-      width: 100%;         /* 强制铺满容器宽度 */
-      height: 100%;        /* 强制铺满容器高度 */
+      width: 100%;         /* 始终铺满容器宽度 */
+      height: 100%;        /* 始终铺满容器高度 */
       object-fit: cover;   /* 按比例裁剪，保证无空白且无变形 */
       background-color: #fff;
       box-shadow: 3px 3px 6px #888;
@@ -71,24 +72,27 @@
     }
   }
 
-  /* 文字那一块 */
+  /* —— 文字那一块：占剩余宽度 —— */
   .paper-box-text {
-    /* 小屏时：文字区域最多占 (100% - 200px - 1.5em) */
+    /* 小屏时，文字区域最大宽度 = (100% - 200px - 1.5em) */
     max-width: calc(100% - 200px - 1.5em);
     order: 1;
-    line-height: 1.5;   /* 根据需要调整行距 */
+    line-height: 1.5;
   }
 
+  /* —— 大屏布局 —— */
   @include breakpoint($medium) {
-    /* 大屏布局：图片最多占 40% 宽度，但不少于 200px × 200px */
+    /* 依旧保持图片 200×200，不做百分比伸缩 —— */
     .paper-box-image {
-      min-width: 200px;
-      min-height: 200px;
-      max-width: 40%;
+      width: 200px;
+      height: 200px;
+      /* 如果想在大屏多留一点右侧间距，可改下面这行： */
+      margin-right: 2em;
+
+      /* 文字改成右边，占剩余空间即可 */
       justify-content: flex-start;
       align-items: center;
       order: 1;
-      margin-right: 2em;
 
       img {
         width: 100%;
@@ -99,15 +103,22 @@
       }
     }
 
-    /* 文字占 60% */
+    /* 文字占剩余空间，注意不要超出容器 */
     .paper-box-text {
       justify-content: flex-start;
       padding-left: 0;
-      max-width: 60%;
+      max-width: calc(100% - 200px - 2em);
+      /*
+        这里：100% 是 .paper-box 的整个宽度，
+        减掉 200px（图片容器）和 2em（右侧留白），
+        剩下给文字区域。
+        你也可以改成其他固定值或百分比。
+      */
       order: 2;
     }
   }
 }
+
 
 /* badge 样式保持不变 */
 .badge {
