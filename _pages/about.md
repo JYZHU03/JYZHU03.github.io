@@ -43,6 +43,8 @@ SDMG: Smoothing Your Diffusion Models for Powerful Graph Representation Learning
 
 **Junyou Zhu**, Langzhou He, Chao Gao, Zhen Su, Philip S. Yu, Jurgen Kurths, Frank Hellmann
 
+[Paper Link](https://jyzhu03.github.io/)
+
 [//]: # ([**Project**]&#40;https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC&#41; <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>)
 
 [//]: # (- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
@@ -52,9 +54,11 @@ SDMG: Smoothing Your Diffusion Models for Powerful Graph Representation Learning
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2025</div><img src='images/KDD2024.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Propagation Structure-Aware Graph Transformer for Robust and Interpretable Fake News Detection](https://dl.acm.org/doi/abs/10.1145/3637528.3672024)
+Propagation Structure-Aware Graph Transformer for Robust and Interpretable Fake News Detection
 
 **Junyou Zhu**, Chao Gao, Ze Yin, Xianghua Li, Juergen Kurths
+
+[Paper Link](https://dl.acm.org/doi/abs/10.1145/3637528.3672024)
 </div>
 </div>
 
