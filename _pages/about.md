@@ -32,7 +32,10 @@ Feel free to reach out if you’re interested in collaborating on anything.
 
 # 🔥 News
 - *2025.05*: &nbsp;🎉🎉 One paper on graph representation learning is accepted to ICML2025! 
-- *2024.07*: &nbsp;🎉🎉 One paper on graph representation learning is accepted to KDD2024! 
+- *2024.04*: &nbsp;🎉🎉 I was formally hired by the project:"" at PIK!
+- *2025.03*: &nbsp; One paper on AI for Power Grids is submitted to IEEE TKDE! 
+- *2024.05*: &nbsp;🎉🎉 One paper on graph-based fake news detection is accepted to KDD2024! 
+
 
 # 📝 Publications 
 
