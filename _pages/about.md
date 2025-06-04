@@ -42,6 +42,7 @@ Please feel free to contact me if you are interested in any collaboration.
 SDMG: Smoothing Your Diffusion Models for Powerful Graph Representation Learning
 
 **Junyou Zhu**, Langzhou He, Chao Gao, Zhen Su, Philip S. Yu, Jurgen Kurths, Frank Hellmann
+
 [//]: # ([**Project**]&#40;https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC&#41; <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>)
 
 [//]: # (- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
