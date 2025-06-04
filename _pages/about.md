@@ -30,17 +30,17 @@ Please feel free to contact me if you are interested in any collaboration.
 - *05.2025*: &nbsp;🎉🎉 One paper on graph representation learning was accepted to ICML2025! 
 - *04.2025*: &nbsp; I have officially joined the ‘Explainable AI for Dynamic Stability Assessment’ project at PIK!
 - *03.2025*: &nbsp; One paper on AI for Power Grids was submitted to IEEE TKDE. 
-- *05.2025*: &nbsp;🎉🎉 One paper on graph-based fake news detection is accepted to KDD2024!
+- *05.2024*: &nbsp;🎉🎉 One paper on graph-based fake news detection is accepted to KDD2024!
 
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2025</div><img src='images/ICML2025.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
-
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+[//]: # ([Deep Residual Learning for Image Recognition]&#40;https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf&#41;)
+SDMG: Smoothing Your Diffusion Models for Powerful Graph Representation Learning
+**Junyou Zhu**, Langzhou He, Chao Gao, Zhen Su, Philip S. Yu, Jurgen Kurths, Frank Hellmann
 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
