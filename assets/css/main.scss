@@ -56,11 +56,13 @@
     order: 2;
 
     img {
-      width: 200px;       // 固定宽
-      height: 200px;      // 固定高
+      width: 200px;        // 固定“容器”宽度
+      height: 200px;       // 固定“容器”高度
       box-shadow: 3px 3px 6px #888;
-      object-fit: cover;  // 按比例裁剪并填满
-      display: block;     // 去掉 img 默认下方留白
+      object-fit: contain; // 等比例缩放、完整显示、不裁剪
+      background-color: #fff;
+      /* 如果容器里有空白区域，可以让它显示白底或其它背景色 */
+      display: block;
     }
   }
 
@@ -72,14 +74,16 @@
   @include breakpoint($medium) {
     .paper-box-image {
       justify-content: left;
-      min-width: 200px;
+      min-width: 200px;  // 保证容器最小宽度不会小于 200px
       max-width: 40%;
       order: 1;
 
       img {
         width: 200px;
         height: 200px;
-        object-fit: cover;
+        object-fit: contain;
+        background-color: #fff;
+        display: block;
       }
     }
 
