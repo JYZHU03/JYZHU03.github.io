@@ -17,24 +17,20 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a Ph.D. candidate in the Department of Computer Science at Technische Universität Berlin, supervised by [Prof. Klaus-Robert Müller](https://web.ml.tu-berlin.de/author/prof.-dr.-klaus-robert-muller/) and [Prof. Jürgen Kurths](https://www.pik-potsdam.de/members/kurths/homepage).
-
-In parallel, I am a doctoral researcher at the Potsdam Institute for Climate Impact Research (PIK), working on the project “Explainable AI for Dynamic Stability Assessment” under the guidance of [Dr. Frank Hellmann](https://www.pik-potsdam.de/members/hellmann)
+I am a third year Ph.D. candidate in the Department of Computer Science at Technische Universität Berlin, supervised by [Prof. Klaus-Robert Müller](https://web.ml.tu-berlin.de/author/prof.-dr.-klaus-robert-muller/) and [Prof. Jürgen Kurths](https://www.pik-potsdam.de/members/kurths/homepage). In parallel, I am a doctoral researcher at the Potsdam Institute for Climate Impact Research (PIK), working on the project “Explainable AI for Dynamic Stability Assessment” under the guidance of [Dr. Frank Hellmann](https://www.pik-potsdam.de/members/hellmann)
 
 My research is situated at the intersection of artificial intelligence, graph theory, and data mining, with a particular emphasis on graph-structured data. Current topics include:
 - Graph Representation Learning (GRL) problems, such as node classification, link prediction, and graph classification.
 - Generative models for graphs, e.g., diffusion models for GRL.
 - AI for scientific problems, including the prediction of dynamic stability in complex networks, and the pattern mining of extreme climate events.
 
-Previously, I have also investigated community detection in complex networks.
-
 Feel free to reach out if you’re interested in collaborating on anything.
 
 # 🔥 News
 - *2025.05*: &nbsp;🎉🎉 One paper on graph representation learning is accepted to ICML2025! 
-- *2024.04*: &nbsp;🎉🎉 I was formally hired by the project:"" at PIK!
+- *2024.04*: &nbsp; I am formally hiring by the project "Explainable AI for Dynamic Stability Assessment" at PIK!
 - *2025.03*: &nbsp; One paper on AI for Power Grids is submitted to IEEE TKDE! 
-- *2024.05*: &nbsp;🎉🎉 One paper on graph-based fake news detection is accepted to KDD2024! 
+- *2024.05*: &nbsp;🎉🎉 One paper on graph-based fake news detection is accepted to KDD2024!
 
 
 # 📝 Publications 
