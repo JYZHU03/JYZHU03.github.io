@@ -42,84 +42,76 @@
 
 .paper-box {
   display: flex;
-  justify-content: flex-start;  // 图片与文字默认左对齐
+  justify-content: flex-start;
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
   border-bottom: 1px #efefef solid;
   padding: 2em 0;
 
-  /* 图片那一块 */
+  /* —— 固定图片容器大小 —— */
   .paper-box-image {
+    /* 1. 定一个死宽高（所有文章都相同） */
+    width: 500px;   /* 容器固定宽度 */
+    height: 200px;  /* 容器固定高度 */
+    /* 2. 禁止 flex 项被挤压/拉伸： */
+    flex: none;     /* 不跟随 flex 行为收缩/撑开 */
+    /* 3. 用 flex 让里面的 <img> 垂直水平居中 */
     display: flex;
-    justify-content: center;   // 图片在容器水平居中（可改成 flex-start 或其他）
-    align-items: center;       // 垂直居中（避免因文字行高不同而偏移）
+    justify-content: center;
+    align-items: center;
+    /* 4. 给每张图片容器和文字之间留一个固定的右侧间距 */
+    margin-right: 1.5em;
+    /* 如果你想在大屏时稍微增大间距，可以在 breakpoint 里改 */
 
-    /* 让容器紧贴图片，添加右侧留白给文字 */
-    /* 不要再写 width: 100% ，否则小屏时它会占整行 */
-    margin-right: 1.5em;   // 控制图片和文字之间的水平距离
-    /* 如果想要容器尺寸受到图片自身的限制，可以不写固定宽度 */
-
+    /* —— 下面是针对 img 的约束 —— */
     img {
-      max-width: 200px;   // 图片最大宽度（等比例缩放时不超过 200px）
-      max-height: 200px;  // 图片最大高度（不超过 200px）
+      max-width: 100%;       /* 不会超过容器宽度（200px） */
+      max-height: 100%;      /* 不会超过容器高度（200px） */
+      object-fit: contain;   /* 等比缩放、完整显示，不裁剪 */
+      background-color: #fff;/* 如果图片比例与容器不符，留白处显示白底 */
       box-shadow: 3px 3px 6px #888;
-      object-fit: contain;     // 等比缩放、完整显示、不裁剪
-      background-color: #fff;  // 如果缩放后留白，用白底显得更整齐
-      display: block;          // 去除 img 底部默认留白
+      display: block;        /* 消掉 img 自带的底部空隙 */
     }
   }
 
-  /* 文字那一块 */
+  /* 文字那一块：让它占剩下的空间即可 */
   .paper-box-text {
-    max-width: calc(100% - 200px - 1.5em);
-    // 意思是: 小屏时文字最多占据 剩余的行宽(100%)，减去图片200px和间距1.5em
-    // 如果你希望文字自动换行、不要超出容器，则可以这样写。
-    //
-    // 如果你更愿意文字直接根据 flex 比例(如 60%/40%)来自适应，也可以删掉这一行，
-    // 用下面的 breakpoint 针对大屏做布局即可。
-    order: 1;
-    line-height: 1.5;   // 根据需要调整行距，让文字更易读
+    /* 文字区不用写死宽度，flex 排版时自动横向剩余 */
+    flex: 1;
+    line-height: 1.5;       /* 适当行距，便于阅读 */
+    order: 2;
   }
 
   @include breakpoint($medium) {
-    /* 大屏时，仍然让图片最多占据 40% 宽度，但不要小于 200px */
+    /* —— 中等及以上屏幕 —— */
     .paper-box-image {
-      justify-content: flex-start;
-      align-items: center;
-      min-width: 200px;
-      max-width: 40%;
+      /* 如果你希望在大屏上让文字占 60%、图片占 40%，可以改 flex */
+      /* 但因为我们把图片容器写死 200px×200px，通常不会按百分比分布 */
+      /* 这里只需要保证 margin-right 稍微增大即可 */
+      margin-right: 2em;
       order: 1;
-      margin-right: 2em;  // 大屏时可以适当加大一点间距
-
-      img {
-        max-width: 200px;   // 保持不超过 200px
-        max-height: 200px;  // 保持不超过 200px
-        object-fit: contain;
-        background-color: #fff;
-        display: block;
-      }
+      /* container 本身依旧是 200×200 不变 */
     }
 
-    /* 大屏时，文字占 60% */
     .paper-box-text {
-      justify-content: flex-start;
-      padding-left: 0;       // 因为 margin-right 已经给了间距，这里可以去掉
+      /* 强制文字区最多占 60%，防止它太宽追不上布局 */
       max-width: 60%;
       order: 2;
+      justify-content: flex-start;
+      padding-left: 0; /* margin-right 已经给了间距，这里不需要多余内边距 */
     }
   }
 }
 
-
-/* badge 依旧放在 .paper-box-image 的内部，无需改动 */
+/* badge 样式无需改动，保持它绝对定位在图片左上即可 */
 .badge {
   padding-left: 1rem;
   padding-right: 1rem;
   position: absolute;
-  margin-top: .5em;
-  margin-left: -.5em;
+  margin-top: 0.5em;
+  margin-left: -0.5em;
   color: white;
   background-color: #00369f;
-  font-size: .8em;
+  font-size: 0.8em;
 }

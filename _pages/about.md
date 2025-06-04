@@ -40,7 +40,7 @@ Please feel free to contact me if you are interested in any collaboration.
 <div class='paper-box-text' markdown="1">
 
 [//]: # ([Deep Residual Learning for Image Recognition]&#40;https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf&#41;)
-SDMG: Smoothing Your Diffusion Models for Powerful Graph Representation Learning
+**SDMG: Smoothing Your Diffusion Models for Powerful Graph Representation Learning**
 
 **Junyou Zhu**, Langzhou He, Chao Gao, Zhen Su, Philip S. Yu, Jurgen Kurths, Frank Hellmann
 
@@ -57,7 +57,7 @@ in Proceedings of the 42*nd* International Conference on Machine Learning. *(ICM
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2024</div><img src='images/KDD2024.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-Propagation Structure-Aware Graph Transformer for Robust and Interpretable Fake News Detection 
+**Propagation Structure-Aware Graph Transformer for Robust and Interpretable Fake News Detection** 
 
 **Junyou Zhu**, Chao Gao, Ze Yin, Xianghua Li, Juergen Kurths
 
@@ -70,7 +70,7 @@ In Proceedings of the 30*th* ACM SIGKDD Conference on Knowledge Discovery and Da
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TCYB</div><img src='images/IEEE TCYB.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-A Novel Representation Learning For Dynamic Graphs Based On Graph Convolutional Networks
+**A Novel Representation Learning For Dynamic Graphs Based On Graph Convolutional Networks**
 
 Chao Gao, **Junyou Zhu**, Fan Zhang, Zhen Wang, Xuelong Li
 
@@ -83,7 +83,7 @@ IEEE Transactions on Cybernetics 53.6 (2023): 3599-3612.
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TNSE</div><img src='images/IEEE TNSE.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-Community Detection in Graph: An Embedding Method
+**Community Detection in Graph: An Embedding Method**
 
 **Junyou Zhu**, Chunyu Wang, Chao Gao, Fan Zhang, Zhen Wang, Xuelong Li
 
@@ -96,7 +96,7 @@ IEEE Transactions on Network Science and Engineering 9.2 (2022): 689-702.
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NJP</div><img src='images/NJP.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-Unsupervised Community Detection In Attributed Networks Based On Mutual Information Maximization
+**Unsupervised Community Detection In Attributed Networks Based On Mutual Information Maximization**
 
 **Junyou Zhu**, Xianghua Li, Chao Gao, Zhen Wang, Jurgen Kurths
 
@@ -109,7 +109,7 @@ New Journal of Physics 23.11 (2021): 113016.
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TKDE</div><img src='images/IEEE TKDE_Community.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-Evolutionary Markov Dynamics For Network Community Detection
+**Evolutionary Markov Dynamics For Network Community Detection**
 
 Zhen Wang, Chunyu Wang, Xianghua Li, Chao Gao, Xuelong Li, **Junyou Zhu**
 
@@ -121,15 +121,15 @@ IEEE Transactions on Knowledge and Data Engineering 34.3 (2022): 1206-1220.
 
 [//]: # (- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet]&#40;https://github.com&#41;, A, B, C, **CVPR 2020**)
 
-# 🎖 Projects
-- *01.2025-12.2027* Explainable AI for Dynamic Stability Assessment.
+# 🚀 Projects
+- *01.2025-12.2027*   Explainable AI for Dynamic Stability Assessment.
 
-# 📖 Work Experience
+# 👔 Work Experience
 - *2025.04 - 2027.012*, Research Project Member at Department of Complexity Science, Potsdam Institute for Climate Impact Research, 14473 Potsdam, Germany. 
 - *03.2023 - 03.2025*, Guest Researcher at Department of Complexity Science, Potsdam Institute for Climate Impact Research, 14473 Potsdam, Germany.
 
 
-# 💻 Reviewer Service
+# 🔍 Reviewer Service
 - IEEE Transactions on Knowledge and Data Engineering (IEEE TKDE)
 - IEEE Transactions on Neural Networks and Learning Systems (IEEE TNNLS)
 - IEEE Transactions on Network Science and Engineering (IEEE TNSE)
