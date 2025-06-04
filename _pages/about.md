@@ -17,7 +17,8 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a third-year Ph.D. candidate in the Department of Computer Science at Technische Universität Berlin, supervised by [Prof. Klaus-Robert Müller](https://web.ml.tu-berlin.de/author/prof.-dr.-klaus-robert-muller/) and [Prof. Jürgen Kurths](https://www.pik-potsdam.de/members/kurths/homepage). In parallel, I am a doctoral researcher at the Potsdam Institute for Climate Impact Research (PIK), working on the project “Explainable AI for Dynamic Stability Assessment” under the guidance of [Dr. Frank Hellmann](https://www.pik-potsdam.de/members/hellmann)
+I am a third-year Ph.D. candidate in the Department of Computer Science at Technische Universität Berlin, supervised by [Prof. Klaus-Robert Müller](https://web.ml.tu-berlin.de/author/prof.-dr.-klaus-robert-muller/) and [Prof. Jürgen Kurths](https://www.pik-potsdam.de/members/kurths/homepage). 
+In parallel, I am a doctoral researcher at the Potsdam Institute for Climate Impact Research (PIK), working on the project “Explainable AI for Dynamic Stability Assessment” under the guidance of [Dr. Frank Hellmann](https://www.pik-potsdam.de/members/hellmann)
 
 My research is situated at the intersection of artificial intelligence, graph theory, and data mining, with a particular emphasis on graph-structured data. Current topics include:
 - Graph Representation Learning (GRL) problems, such as node classification, link prediction, and graph classification.
@@ -66,19 +67,22 @@ In Proceedings of the 30*th* ACM SIGKDD Conference on Knowledge Discovery and Da
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+[//]: # (- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet]&#40;https://github.com&#41;, A, B, C, **CVPR 2020**)
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+# 🎖 Projects
+- *01.2025-12.2027* Explainable AI for Dynamic Stability Assessment.
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+# 📖 Work Experience
+- *2025.04 - 2027.012*, Research Project Member at Department of Complexity Science, Potsdam Institute for Climate Impact Research, 14473 Potsdam, Germany. 
+- *03.2023 - 03.2025*, Guest Researcher at Department of Complexity Science, Potsdam Institute for Climate Impact Research, 14473 Potsdam, Germany.
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+# 💻 Reviewer Service
+- IEEE Transactions on Knowledge and Data Engineering (IEEE TKDE)
+- IEEE Transactions on Neural Networks and Learning Systems (IEEE TNNLS)
+- IEEE Transactions on Network Science and Engineering (IEEE TNSE)
+- IEEE Transactions on Emerging Topics in Computing (IEEE TETC)
+- CAAI Transactions on Intelligence Technology (CAAI TIT)
+- ICML 2025
+- NeurIPS 2024
+- KDD 2024
