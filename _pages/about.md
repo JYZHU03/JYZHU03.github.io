@@ -48,7 +48,7 @@ SDMG: Smoothing Your Diffusion Models for Powerful Graph Representation Learning
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2025</div><img src='images/KDD2025.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2025</div><img src='images/KDD2024.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Propagation Structure-Aware Graph Transformer for Robust and Interpretable Fake News Detection](https://dl.acm.org/doi/abs/10.1145/3637528.3672024)
