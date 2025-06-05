@@ -30,7 +30,7 @@ Please feel free to contact me if you are interested in any collaboration.
 # 🔥 News
 - *05.2025*: &nbsp;🎉🎉 One paper on graph representation learning was accepted to **ICML 2025**! 
 - *04.2025*: &nbsp; I have officially joined the ‘Explainable AI for Dynamic Stability Assessment’ project at PIK!
-- *03.2025*: &nbsp; One paper on AI for power grids was submitted to IEEE TKDE. 
+- *03.2025*: &nbsp; One paper on AI for power grids was submitted to IEEE TKDE! 
 - *05.2024*: &nbsp;🎉🎉 One paper on graph-based fake news detection is accepted to **KDD 2024**!
 
 
