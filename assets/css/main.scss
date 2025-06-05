@@ -41,82 +41,58 @@
 @import "print";
 
 .paper-box {
-  display: flex;
-  justify-content: flex-start;  // 图片与文字默认左对齐
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  border-bottom: 1px #efefef solid;
-  padding: 2em 0;
 
-/* --- 统一论文缩略图尺寸 --- */
-.paper-box-image {
-  /* 固定为 200px 宽 × 120px 高的画布 */
-  flex: 0 0 200px;      // 在 flex 布局里占 200px，不会被压缩
-  width: 200px;
-  height: 120px;        // ← 你也可以改成 140、150… 按喜好调整
-  position: relative;   // 让 .badge 的 absolute 定位仍有效
-  margin-right: 1.5em;  // 保留原来的左右间距
-}
+  /* ====== 图片容器（固定画布大小） ====== */
+  .paper-box-image {
+    /* 在 flex 布局里占 200px 宽，不会被压缩；高度固定 120px */
+    flex: 0 0 200px;
+    width: 200px;
+    height: 120px;
 
-.paper-box-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;  // 全图等比缩进来，留白也不会裁剪
-  box-shadow: 3px 3px 6px #888;  // 继续保留阴影
-  background: #fff;              // 留白区域仍是白底
-}
+    /* 保留居中、间距、阴影等原有视觉效果 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;        /* 供 .badge 绝对定位 */
+    margin-right: 1.5em;       /* 图片与文字的水平间距 */
+    box-shadow: 3px 3px 6px #888;
+    background: #fff;          /* 以防图片透明留白 */
 
-  /* 文字那一块 */
+    /* ========== 真正的 <img> ========== */
+    img {
+      width: 100%;             /* 填满画布 */
+      height: 100%;
+      object-fit: cover;       /* ★改成 contain 或 fill 可切换策略★ */
+      display: block;          /* 去掉底部行隙 */
+    }
+  }
+
+  /* ====== 文字区 ====== */
   .paper-box-text {
+    /* 剩余宽度全部给文字；高度随内容撑开 */
     max-width: calc(100% - 200px - 1.5em);
-    // 意思是: 小屏时文字最多占据 剩余的行宽(100%)，减去图片200px和间距1.5em
-    // 如果你希望文字自动换行、不要超出容器，则可以这样写。
-    //
-    // 如果你更愿意文字直接根据 flex 比例(如 60%/40%)来自适应，也可以删掉这一行，
-    // 用下面的 breakpoint 针对大屏做布局即可。
-    order: 1;
-    line-height: 1.5;   // 根据需要调整行距，让文字更易读
+    flex: 1 1 auto;
+    line-height: 1.5;
   }
 
+  /* ====== 大屏断点（沿用你之前的 60%/40% 布局） ====== */
   @include breakpoint($medium) {
-    /* 大屏时，仍然让图片最多占据 40% 宽度，但不要小于 200px */
-    .paper-box-image {
-      justify-content: flex-start;
-      align-items: center;
-      min-width: 200px;
-      max-width: 40%;
-      order: 1;
-      margin-right: 2em;  // 大屏时可以适当加大一点间距
+    .paper-box-image { margin-right: 2em; }  /* 大屏稍微拉开间距 */
 
-      img {
-        max-width: 200px;   // 保持不超过 200px
-        max-height: 200px;  // 保持不超过 200px
-        object-fit: contain;
-        background-color: #fff;
-        display: block;
-      }
-    }
-
-    /* 大屏时，文字占 60% */
     .paper-box-text {
-      justify-content: flex-start;
-      padding-left: 0;       // 因为 margin-right 已经给了间距，这里可以去掉
       max-width: 60%;
-      order: 2;
     }
   }
 }
 
-
-/* badge 依旧放在 .paper-box-image 的内部，无需改动 */
+/* .badge 样式保持不变（如果先前写在外面，可以不用复制） */
 .badge {
   padding-left: 1rem;
   padding-right: 1rem;
   position: absolute;
   margin-top: .5em;
   margin-left: -.5em;
-  color: white;
+  color: #fff;
   background-color: #00369f;
   font-size: .8em;
 }
