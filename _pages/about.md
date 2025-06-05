@@ -34,8 +34,7 @@ Please feel free to contact me if you are interested in any collaboration.
 - *05.2024*: &nbsp;🎉🎉 One paper on graph-based fake news detection is accepted to **KDD 2024**!
 
 
-# 📝 Selected Publications 
-
+# 📝 Selected Publications
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2025</div><img src='images/ICML2025.png' alt="sym" width="100%" height="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 

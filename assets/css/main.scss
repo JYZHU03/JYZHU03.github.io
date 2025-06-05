@@ -47,7 +47,7 @@
 
   align-items: flex-start;
   border-bottom: 1px #efefef solid;
-  padding: 2em 0;
+  padding: 1.7em 0;
 
   /* ---------------- 图片容器：固定 200×120px 的“画布” ---------------- */
   .paper-box-image {
@@ -109,7 +109,7 @@
   display: flex;
   flex-wrap: wrap;        /* 小屏可换行，图在上文字在下 */
   border-bottom: 1px solid #efefef;
-  padding: 2em 0;
+  padding: 1.2em 0;
 
   /* ---------- 缩略图固定尺寸 ---------- */
   .project-box-image {
