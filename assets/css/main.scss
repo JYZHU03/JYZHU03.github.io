@@ -67,7 +67,7 @@
     img {
       width: 100%;
       height: 100%;
-      object-fit: cover;  /* ★ 如需不裁剪改成 contain；想拉伸改 fill */
+      object-fit: fill;  /* ★ 如需不裁剪改成 contain；想拉伸改 fill； cover:让图片充满画布，必要时裁剪 */
       display: block;     /* 去掉 <img> 底部行隙 */
     }
   }
