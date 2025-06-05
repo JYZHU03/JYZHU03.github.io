@@ -133,14 +133,14 @@ In 2021 International Joint Conference on Neural Networks *(IJCNN 2021, CCF-C, O
 # 👔 Work Experience
 <div class='project-logo-box'><div class='project-box-image'><div><div class="badge"></div><img src='images/PIK_logo.png' alt="sym" width="100%"></div></div>
 <div class='project-box-text' markdown="1">
-*04.2025 - 12.2027* Researcher at Department of Complexity Science, Potsdam Institute for Climate Impact Research.
+*04.2025 - 12.2027*, Researcher at Department of Complexity Science, Potsdam Institute for Climate Impact Research.
 
 14473 Potsdam, Germany
 </div>
 </div>
 <div class='project-logo-box'><div class='project-box-image'><div><div class="badge"></div><img src='images/PIK_logo.png' alt="sym" width="100%"></div></div>
 <div class='project-box-text' markdown="1">
-*03.2023 - 03.2025*, Guest Researcher at Department of Complexity Science, Potsdam Institute for Climate Impact Research
+*03.2023 - 03.2025*, Guest Researcher at Department of Complexity Science, Potsdam Institute for Climate Impact Research.
 
 14473 Potsdam, Germany
 </div>
