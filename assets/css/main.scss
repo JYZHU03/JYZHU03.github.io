@@ -103,3 +103,55 @@
   background-color: #00369f;
   font-size: .8em;
 }
+
+
+.project-logo-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;      /* 默认小屏可换行：图在上、文字在下 */
+
+  align-items: flex-start;
+  border-bottom: 1px #efefef solid;
+  padding: 2em 0;
+
+  /* ---------------- 图片容器：固定 200×120px 的“画布” ---------------- */
+  .project-box-image {
+    flex: 0 0 100px;    /* 在 flex 布局中占 200px 宽，不可被压缩 */
+    width: 100px;
+    height: 60px;      /* → 改这里即可调整统一高度 */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;   /* 让 .badge 的 absolute 能定位 */
+    margin-right: 1.5em;  /* 图片与文字的水平间距 */
+    box-shadow: 3px 3px 6px #888;
+    background: #fff;     /* 图片透明区或留白时有白底 */
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: fill;  /* ★ 如需不裁剪改成 contain；想拉伸改 fill； cover:让图片充满画布，必要时裁剪 */
+      display: block;     /* 去掉 <img> 底部行隙 */
+    }
+  }
+  /* ---------------- 文字区 ---------------- */
+  .project-box-text {
+    flex: 1 1 0%;   /* 余下空间全部给文字，可缩可伸 */
+    min-width: 0;   /* 允许在窄屏时把长网址等内容压缩换行 */
+    line-height: 1.5;
+  }
+
+  /* ---------------- 大屏：不允许换行，确保图在左、文字在右 ---------------- */
+  @include breakpoint($medium) {
+    flex-wrap: nowrap;        /* 中/大屏禁止换到第二行 */
+
+    .project-box-image {        /* 大屏可稍微拉开间距 */
+      margin-right: 2em;
+    }
+
+    /* 如果想让文字最多占 60%，可取消注释 ↓ */
+    // .project-box-text { max-width: 60%; }
+  }
+}
