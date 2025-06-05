@@ -132,6 +132,11 @@ In 2021 International Joint Conference on Neural Networks *(IJCNN 2021, CCF-C, O
 - *01.2025-12.2027*   Explainable AI for Dynamic Stability Assessment.
 
 # 👔 Work Experience
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/PIK_logo.png' alt="sym" width="50%" height="50%"></div></div>
+<div class='paper-box-text' markdown="1">
+*04.2025 - 12.2027*, Research Project Member at Department of Complexity Science, Potsdam Institute for Climate Impact Research, 14473 Potsdam, Germany. 
+</div>
+</div>
 - *04.2025 - 12.2027*, Research Project Member at Department of Complexity Science, Potsdam Institute for Climate Impact Research, 14473 Potsdam, Germany. 
 - *03.2023 - 03.2025*, Guest Researcher at Department of Complexity Science, Potsdam Institute for Climate Impact Research, 14473 Potsdam, Germany.
 
