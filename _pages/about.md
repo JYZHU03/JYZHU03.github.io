@@ -43,7 +43,7 @@ Please feel free to contact me if you are interested in any collaboration.
 
 **Junyou Zhu**, Langzhou He, Chao Gao, Zhen Su, Philip S. Yu, Jurgen Kurths, Frank Hellmann
 
-in Proceedings of the 42*nd* International Conference on Machine Learning (ICML 2025). 
+*In Proceedings of the 42*nd* International Conference on Machine Learning.* (**ICML 2025**) 
 
 [//]: # (*&#40;ICML 2025, CCF-A, Poster Paper&#41;*)
 
@@ -61,7 +61,7 @@ in Proceedings of the 42*nd* International Conference on Machine Learning (ICML 
 
 **Junyou Zhu**, Chao Gao, Ze Yin, Xianghua Li, Juergen Kurths
 
-In Proceedings of the 30*th* ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2024). 
+*In Proceedings of the 30*th* ACM SIGKDD Conference on Knowledge Discovery and Data Mining.* (**KDD 2024**) 
 
 [//]: # (*&#40;KDD 2024, CCF-A, Oral Paper&#41;*)
 
@@ -75,7 +75,7 @@ In Proceedings of the 30*th* ACM SIGKDD Conference on Knowledge Discovery and Da
 
 Chao Gao, **Junyou Zhu**, Fan Zhang, Zhen Wang, Xuelong Li
 
-IEEE Transactions on Cybernetics 53.6 (2023): 3599-3612. 
+*IEEE Transactions on Cybernetics 53.6 (2023): 3599-3612.* (**IEEE TCYB**) 
 
 [//]: # (*&#40;IF: 9.4, JCR Q1, CCF-B&#41;*)
 
@@ -89,7 +89,7 @@ IEEE Transactions on Cybernetics 53.6 (2023): 3599-3612.
 
 **Junyou Zhu**, Chunyu Wang, Chao Gao, Fan Zhang, Zhen Wang, Xuelong Li
 
-IEEE Transactions on Network Science and Engineering 9.2 (2022): 689-702. 
+*IEEE Transactions on Network Science and Engineering 9.2 (2022): 689-702.* (**IEEE TNSE**)
 
 [//]: # (*&#40;IF: 6.7, JCR Q1&#41;*)
 
@@ -103,7 +103,7 @@ IEEE Transactions on Network Science and Engineering 9.2 (2022): 689-702.
 
 **Junyou Zhu**, Xianghua Li, Chao Gao, Zhen Wang, Jurgen Kurths
 
-New Journal of Physics 23.11 (2021): 113016. 
+*New Journal of Physics 23.11 (2021): 113016.* (**NJP**)
 
 [//]: # (*&#40;IF: 2.8, JCR Q2&#41;*)
 
@@ -117,7 +117,7 @@ New Journal of Physics 23.11 (2021): 113016.
 
 Zhen Wang, Chunyu Wang, Xianghua Li, Chao Gao, Xuelong Li, **Junyou Zhu**
 
-IEEE Transactions on Knowledge and Data Engineering 34.3 (2022): 1206-1220. 
+*IEEE Transactions on Knowledge and Data Engineering 34.3 (2022): 1206-1220*. (**IEEE TKDE**)
 
 [//]: # (*&#40;IF: 8.9, JCR Q1, CCF-A&#41;*)
 
@@ -131,7 +131,7 @@ IEEE Transactions on Knowledge and Data Engineering 34.3 (2022): 1206-1220.
 
 **Junyou Zhu**, Zheng Luo, Fan Zhang, Haiqiang Wang, Jiaxin Wang, Chao Gao
 
-In 2021 International Joint Conference on Neural Networks (IJCNN 2021). 
+*In 2021 International Joint Conference on Neural Networks* (**IJCNN 2021**). 
 
 [//]: # (*&#40;IF: 6.0, JCR Q2, CCF-C&#41;*)
 
