@@ -43,7 +43,7 @@ Please feel free to contact me if you are interested in any collaboration.
 
 **Junyou Zhu**, Langzhou He, Chao Gao, Zhen Su, Philip S. Yu, Jurgen Kurths, Frank Hellmann
 
-*In Proceedings of the 42*nd* International Conference on Machine Learning.* (**ICML 2025**) 
+*In Proceedings of the 42nd International Conference on Machine Learning.* (**ICML 2025**) 
 
 [//]: # (*&#40;ICML 2025, CCF-A, Poster Paper&#41;*)
 
@@ -61,7 +61,7 @@ Please feel free to contact me if you are interested in any collaboration.
 
 **Junyou Zhu**, Chao Gao, Ze Yin, Xianghua Li, Juergen Kurths
 
-*In Proceedings of the 30*th* ACM SIGKDD Conference on Knowledge Discovery and Data Mining.* (**KDD 2024**) 
+*In Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining.* (**KDD 2024**) 
 
 [//]: # (*&#40;KDD 2024, CCF-A, Oral Paper&#41;*)
 
@@ -131,7 +131,7 @@ Zhen Wang, Chunyu Wang, Xianghua Li, Chao Gao, Xuelong Li, **Junyou Zhu**
 
 **Junyou Zhu**, Zheng Luo, Fan Zhang, Haiqiang Wang, Jiaxin Wang, Chao Gao
 
-*In 2021 International Joint Conference on Neural Networks* (**IJCNN 2021**). 
+*In 2021 International Joint Conference on Neural Networks.* (**IJCNN 2021**) 
 
 [//]: # (*&#40;IF: 6.0, JCR Q2, CCF-C&#41;*)
 
