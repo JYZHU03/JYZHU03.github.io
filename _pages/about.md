@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 I am a third-year Ph.D. candidate in the Machine Learning Group of the Department of Computer Science at Technische Universität Berlin, Germany, supervised by [**Prof. Klaus-Robert Müller**](https://web.ml.tu-berlin.de/author/prof.-dr.-klaus-robert-muller/) and [**Prof. Jürgen Kurths**](https://www.pik-potsdam.de/members/kurths/homepage). 
-In parallel, I am a doctoral researcher at the Potsdam Institute for Climate Impact Research (PIK), working on the project “Explainable AI for Dynamic Stability Assessment” under the guidance of [**Dr. Frank Hellmann**](https://www.pik-potsdam.de/members/hellmann)
+In parallel, I am a doctoral researcher at the Potsdam Institute for Climate Impact Research (PIK), working on the project “Explainable AI for Dynamic Stability Assessment” under the guidance of [**Dr. Frank Hellmann**](https://www.pik-potsdam.de/members/hellmann).
 
 My research is situated at the intersection of artificial intelligence, graph theory, and data mining, with a particular emphasis on graph-structured data. Current topics include:
 - Graph Representation Learning (GRL) problems, such as node classification, link prediction, and graph classification.
@@ -43,7 +43,9 @@ Please feel free to contact me if you are interested in any collaboration.
 
 **Junyou Zhu**, Langzhou He, Chao Gao, Zhen Su, Philip S. Yu, Jurgen Kurths, Frank Hellmann
 
-in Proceedings of the 42*nd* International Conference on Machine Learning. *(ICML 2025, CCF-A, Poster Paper)*
+in Proceedings of the 42*nd* International Conference on Machine Learning (ICML 2025). 
+
+[//]: # (*&#40;ICML 2025, CCF-A, Poster Paper&#41;*)
 
 [Paper Link](https://jyzhu03.github.io/)
 
@@ -59,7 +61,9 @@ in Proceedings of the 42*nd* International Conference on Machine Learning. *(ICM
 
 **Junyou Zhu**, Chao Gao, Ze Yin, Xianghua Li, Juergen Kurths
 
-In Proceedings of the 30*th* ACM SIGKDD Conference on Knowledge Discovery and Data Mining. *(KDD 2024, CCF-A, Oral Paper)*
+In Proceedings of the 30*th* ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2024). 
+
+[//]: # (*&#40;KDD 2024, CCF-A, Oral Paper&#41;*)
 
 [Paper Link](https://dl.acm.org/doi/abs/10.1145/3637528.3672024)
 </div>
@@ -71,7 +75,9 @@ In Proceedings of the 30*th* ACM SIGKDD Conference on Knowledge Discovery and Da
 
 Chao Gao, **Junyou Zhu**, Fan Zhang, Zhen Wang, Xuelong Li
 
-IEEE Transactions on Cybernetics 53.6 (2023): 3599-3612. *(IF: 9.4, JCR Q1, CCF-B)*
+IEEE Transactions on Cybernetics 53.6 (2023): 3599-3612. 
+
+[//]: # (*&#40;IF: 9.4, JCR Q1, CCF-B&#41;*)
 
 [Paper Link](https://ieeexplore.ieee.org/abstract/document/9743367)
 </div>
@@ -83,7 +89,9 @@ IEEE Transactions on Cybernetics 53.6 (2023): 3599-3612. *(IF: 9.4, JCR Q1, CCF-
 
 **Junyou Zhu**, Chunyu Wang, Chao Gao, Fan Zhang, Zhen Wang, Xuelong Li
 
-IEEE Transactions on Network Science and Engineering 9.2 (2022): 689-702. *(IF: 6.7, JCR Q1)*
+IEEE Transactions on Network Science and Engineering 9.2 (2022): 689-702. 
+
+[//]: # (*&#40;IF: 6.7, JCR Q1&#41;*)
 
 [Paper Link](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9626627)
 </div>
@@ -95,7 +103,9 @@ IEEE Transactions on Network Science and Engineering 9.2 (2022): 689-702. *(IF: 
 
 **Junyou Zhu**, Xianghua Li, Chao Gao, Zhen Wang, Jurgen Kurths
 
-New Journal of Physics 23.11 (2021): 113016. *(IF: 2.8, JCR Q2)*
+New Journal of Physics 23.11 (2021): 113016. 
+
+[//]: # (*&#40;IF: 2.8, JCR Q2&#41;*)
 
 [Paper Link](https://iopscience.iop.org/article/10.1088/1367-2630/ac2fbd/pdf)
 </div>
@@ -107,7 +117,9 @@ New Journal of Physics 23.11 (2021): 113016. *(IF: 2.8, JCR Q2)*
 
 Zhen Wang, Chunyu Wang, Xianghua Li, Chao Gao, Xuelong Li, **Junyou Zhu**
 
-IEEE Transactions on Knowledge and Data Engineering 34.3 (2022): 1206-1220. *(IF: 8.9, JCR Q1, CCF-A)*
+IEEE Transactions on Knowledge and Data Engineering 34.3 (2022): 1206-1220. 
+
+[//]: # (*&#40;IF: 8.9, JCR Q1, CCF-A&#41;*)
 
 [Paper Link](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9099469)
 </div>
@@ -119,7 +131,11 @@ IEEE Transactions on Knowledge and Data Engineering 34.3 (2022): 1206-1220. *(IF
 
 **Junyou Zhu**, Zheng Luo, Fan Zhang, Haiqiang Wang, Jiaxin Wang, Chao Gao
 
-In 2021 International Joint Conference on Neural Networks *(IJCNN 2021, CCF-C, Oral Paper)*
+In 2021 International Joint Conference on Neural Networks (IJCNN 2021). 
+
+[//]: # (*&#40;IF: 6.0, JCR Q2, CCF-C&#41;*)
+
+[//]: # (*&#40;IJCNN 2021, CCF-C, Oral Paper&#41;*)
 
 [Paper Link](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9533668)
 </div>
@@ -128,7 +144,7 @@ In 2021 International Joint Conference on Neural Networks *(IJCNN 2021, CCF-C, O
 [//]: # (- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet]&#40;https://github.com&#41;, A, B, C, **CVPR 2020**)
 
 # 🚀 Projects
-- *01.2025-12.2027*   Explainable AI for Dynamic Stability Assessment.
+- *01.2025-12.2027*,   Explainable AI for Dynamic Stability Assessment.
 
 # 👔 Work Experience
 <div class='project-logo-box'><div class='project-box-image'><div><div class="badge"></div><img src='images/PIK_logo.png' alt="sym" width="100%"></div></div>
