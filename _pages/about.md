@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a third-year Ph.D. candidate in the Machine Learning Group of the Department of Computer Science at Technische Universität Berlin, Germany, supervised by [**Prof. Klaus-Robert Müller**](https://web.ml.tu-berlin.de/author/prof.-dr.-klaus-robert-muller/) and [**Prof. Jürgen Kurths**](https://www.pik-potsdam.de/members/kurths/homepage). 
+**Welcome to my homepage**! I am a third-year Ph.D. candidate in the Machine Learning Group of the Department of Computer Science at Technische Universität Berlin, Germany, supervised by [**Prof. Klaus-Robert Müller**](https://web.ml.tu-berlin.de/author/prof.-dr.-klaus-robert-muller/) and [**Prof. Jürgen Kurths**](https://www.pik-potsdam.de/members/kurths/homepage). 
 In parallel, I am a doctoral researcher at the Potsdam Institute for Climate Impact Research (PIK), working on the project “Explainable AI for Dynamic Stability Assessment” under the guidance of [**Dr. Frank Hellmann**](https://www.pik-potsdam.de/members/hellmann).
 
 My research is situated at the intersection of artificial intelligence, graph theory, and data mining, with a particular emphasis on graph-structured data. Current topics include:
