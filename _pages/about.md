@@ -28,7 +28,7 @@ My research is situated at the intersection of artificial intelligence, graph th
 Please feel free to contact me if you are interested in any collaboration.
 
 # 🔥 News
-- *03.2025*: &nbsp;🎉🎉 One paper on AI for power grids was accepted to **IEEE TKDE**! 
+- *10.2025*: &nbsp;🎉🎉 One paper on AI for power grids was accepted to **IEEE TKDE**! 
 - *05.2025*: &nbsp;🎉🎉 One paper on graph representation learning was accepted to **ICML 2025**! 
 - *04.2025*: &nbsp; I have officially joined the ‘Explainable AI for Dynamic Stability Assessment’ project at PIK!
 - *05.2024*: &nbsp;🎉🎉 One paper on graph-based fake news detection was accepted to **KDD 2024**!
