@@ -28,9 +28,9 @@ My research is situated at the intersection of artificial intelligence, graph th
 Please feel free to contact me if you are interested in any collaboration.
 
 # 🔥 News
+- *03.2025*: &nbsp;🎉🎉 One paper on AI for power grids was accepted to **IEEE TKDE**! 
 - *05.2025*: &nbsp;🎉🎉 One paper on graph representation learning was accepted to **ICML 2025**! 
 - *04.2025*: &nbsp; I have officially joined the ‘Explainable AI for Dynamic Stability Assessment’ project at PIK!
-- *03.2025*: &nbsp; One paper on AI for power grids was submitted to IEEE TKDE! 
 - *05.2024*: &nbsp;🎉🎉 One paper on graph-based fake news detection was accepted to **KDD 2024**!
 
 
@@ -173,6 +173,7 @@ Zhen Wang, Chunyu Wang, Xianghua Li, Chao Gao, Xuelong Li, **Junyou Zhu**
 - IEEE Transactions on Network Science and Engineering (IEEE TNSE)
 - IEEE Transactions on Emerging Topics in Computing (IEEE TETC)
 - CAAI Transactions on Intelligence Technology (CAAI TIT)
+- ICLR 2026
 - ICML 2025
 - NeurIPS 2024
 - KDD 2024
