@@ -35,6 +35,25 @@ Please feel free to contact me if you are interested in any collaboration.
 
 
 # 📝 Selected Publications
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TKDE 2025</div><img src='images/IEEE_TKDE_grid.png' alt="sym" width="100%" height="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[//]: # ([Deep Residual Learning for Image Recognition]&#40;https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf&#41;)
+**Network Measure-Enriched GNNs: A New Framework for Power Grid Stability Prediction**
+
+**Junyou Zhu**, Christian Nauck, Michael Lindner, Langzhou He, Philip S Yu, Klaus-Robert Müller, Jürgen Kurths, Frank Hellmann
+
+*IEEE Transactions on Knowledge and Data Engineering 38.1 (2025): 518-531*. (**IEEE TKDE**)
+
+[//]: # (*&#40;ICML 2025, CCF-A, Poster Paper&#41;*)
+
+[Paper Link](https://ieeexplore.ieee.org/abstract/document/11214469)
+
+[//]: # ([**Project**]&#40;https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC&#41; <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>)
+
+[//]: # (- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
+</div>
+</div>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2025</div><img src='images/ICML2025.png' alt="sym" width="100%" height="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -47,7 +66,7 @@ Please feel free to contact me if you are interested in any collaboration.
 
 [//]: # (*&#40;ICML 2025, CCF-A, Poster Paper&#41;*)
 
-[Paper Link](https://jyzhu03.github.io/)
+[Paper Link](https://proceedings.mlr.press/v267/zhu25g.html)
 
 [//]: # ([**Project**]&#40;https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC&#41; <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>)
 
