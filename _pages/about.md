@@ -60,7 +60,7 @@ Please feel free to contact me if you are interested in any collaboration.
 [//]: # ([Deep Residual Learning for Image Recognition]&#40;https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf&#41;)
 **SDMG: Smoothing Your Diffusion Models for Powerful Graph Representation Learning**
 
-**Junyou Zhu**, Langzhou He, Chao Gao, Zhen Su, Philip S. Yu, Jurgen Kurths, Frank Hellmann
+**Junyou Zhu**, Langzhou He, Chao Gao, Zhen Su, Philip S. Yu, Jürgen Kurths, Frank Hellmann
 
 *In Proceedings of the 42nd International Conference on Machine Learning.* (**ICML 2025**) 
 
@@ -78,7 +78,7 @@ Please feel free to contact me if you are interested in any collaboration.
 
 **Propagation Structure-Aware Graph Transformer for Robust and Interpretable Fake News Detection** 
 
-**Junyou Zhu**, Chao Gao, Ze Yin, Xianghua Li, Juergen Kurths
+**Junyou Zhu**, Chao Gao, Ze Yin, Xianghua Li, Jürgen Kurths
 
 *In Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining.* (**KDD 2024**) 
 
@@ -120,7 +120,7 @@ Chao Gao, **Junyou Zhu**, Fan Zhang, Zhen Wang, Xuelong Li
 
 **Unsupervised Community Detection In Attributed Networks Based On Mutual Information Maximization**
 
-**Junyou Zhu**, Xianghua Li, Chao Gao, Zhen Wang, Jurgen Kurths
+**Junyou Zhu**, Xianghua Li, Chao Gao, Zhen Wang, Jürgen Kurths
 
 *New Journal of Physics 23.11 (2021): 113016.* (**NJP**)
 
