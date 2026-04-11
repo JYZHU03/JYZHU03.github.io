@@ -205,6 +205,6 @@ Zhen Wang, Chunyu Wang, Xianghua Li, Chao Gao, Xuelong Li, **Junyou Zhu**
 - IEEE Transactions on Emerging Topics in Computing (IEEE TETC)
 - CAAI Transactions on Intelligence Technology (CAAI TIT)
 - ICLR 2026
-- ICML 2025
+- ICML 2026; ICML 2025
 - NeurIPS 2024
 - KDD 2024
