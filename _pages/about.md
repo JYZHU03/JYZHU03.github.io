@@ -47,6 +47,11 @@ Please feel free to contact me if you are interested in any collaboration.
 
 *IEEE Transactions on Knowledge and Data Engineering (2026): early access*. (**IEEE TKDE**)
 
+[Paper Link](https://ieeexplore.ieee.org/document/11455959)
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TKDE</div><img src='images/IEEE_TKDE_grid.png' alt="sym" width="100%" height="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
