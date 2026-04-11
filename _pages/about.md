@@ -28,6 +28,7 @@ My research is situated at the intersection of artificial intelligence, graph th
 Please feel free to contact me if you are interested in any collaboration.
 
 # 🔥 News
+- *04.2026*: &nbsp;🎉🎉 One paper on robust graph learning for fake news detection was accepted to **IEEE TKDE**! 
 - *10.2025*: &nbsp;🎉🎉 One paper on AI for power grids was accepted to **IEEE TKDE**! 
 - *05.2025*: &nbsp;🎉🎉 One paper on graph representation learning was accepted to **ICML 2025**! 
 - *04.2025*: &nbsp; I have officially joined the ‘Explainable AI for Dynamic Stability Assessment’ project at PIK!
@@ -35,6 +36,17 @@ Please feel free to contact me if you are interested in any collaboration.
 
 
 # 📝 Selected Publications
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TKDE</div><img src='images/IEEE_TKDE2026_fake_news.png' alt="sym" width="100%" height="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[//]: # ([Deep Residual Learning for Image Recognition]&#40;https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf&#41;)
+**Noise-Filtering Enhanced Graph Transformer for Robust Fake News Detection**
+
+**Junyou Zhu**, Chao Gao, Ze Yin, Xianghua Li, Zhen Wang, Jürgen Kurths
+
+*IEEE Transactions on Knowledge and Data Engineering (2026): early access*. (**IEEE TKDE**)
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TKDE</div><img src='images/IEEE_TKDE_grid.png' alt="sym" width="100%" height="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
