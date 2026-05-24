@@ -164,101 +164,66 @@
 
 .visitor-map {
   margin: 2.4em 0 0;
-  padding-top: .3em;
+  padding-top: .2em;
 
   h1 {
     margin: 0;
     border-bottom: 0;
-    padding-bottom: .25em;
+    padding-bottom: 0;
+    font-size: 1.3em;
   }
 }
 
-.visitor-map__welcome {
+.visitor-map__box {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-between;
-  gap: 1em;
-  margin-bottom: 1em;
+  gap: 1.25em;
+  padding: 1em 1.1em;
+  border: 1px solid #e0e6ed;
+  border-radius: 8px;
+  background: #fbfdff;
+}
+
+.visitor-map__copy {
+  flex: 0 0 13.5em;
+  min-width: 0;
 
   p {
-    margin: .25em 0 0;
+    margin: .35em 0 0;
     color: #667085;
-    font-size: .9em;
+    font-size: .86em;
+    line-height: 1.35;
   }
 }
 
 .visitor-map__counter {
-  min-width: 160px;
-  padding: .65em .85em;
-  border: 1px solid #dfe7ef;
-  border-radius: 8px;
-  background: linear-gradient(180deg, #fff 0%, #f8fbfd 100%);
-  box-shadow: 0 8px 20px rgba(31, 41, 55, .06);
-  text-align: right;
-
-  span {
-    display: block;
-    color: #667085;
-    font-size: .76em;
-    line-height: 1.1;
-  }
+  color: #344054;
 
   strong {
-    display: block;
-    margin-top: .2em;
     color: #18344f;
-    font-size: 1.15em;
-    line-height: 1.1;
+    font-weight: 700;
   }
-
-  strong span {
-    display: inline;
-    color: inherit;
-    font-size: inherit;
-  }
-}
-
-.visitor-map__panel {
-  position: relative;
-  overflow: hidden;
-  border: 1px solid #dfe7ef;
-  border-radius: 8px;
-  background: #f8fbfd;
-  box-shadow: 0 12px 30px rgba(31, 41, 55, .08);
 }
 
 .visitor-map__canvas {
+  flex: 1 1 auto;
   display: block;
   width: 100%;
+  max-width: 34em;
   height: auto;
-  min-height: 260px;
+  min-width: 0;
 }
 
 .visitor-map__ocean {
-  fill: url(#visitor-map-ocean);
+  fill: #f6f9fc;
 }
 
-.visitor-map__grid {
-  fill: none;
-  stroke: #d8e7f3;
-  stroke-width: 1;
-  stroke-dasharray: 1 11;
-  opacity: .58;
-}
-
-.visitor-map__rings {
-  fill: none;
-  stroke: #c7d9ea;
-  stroke-width: 1;
-  stroke-dasharray: 8 13;
-  opacity: .55;
-}
-
-.visitor-map__continents path {
-  fill: url(#visitor-map-land);
-  stroke: #8faac0;
+.visitor-map__land {
+  fill: #cad9e4;
+  stroke: #93aabe;
   stroke-linejoin: round;
-  stroke-width: 1.6;
+  stroke-width: .9;
 }
 
 .visitor-map__pin {
@@ -274,7 +239,7 @@
 .visitor-map__pin-marker {
   fill: #c2414b;
   stroke: #fff;
-  stroke-width: 3.2;
+  stroke-width: 3;
   paint-order: stroke;
 }
 
@@ -299,21 +264,6 @@
   transform: scale(.86);
 }
 
-.visitor-map__note {
-  display: flex;
-  justify-content: space-between;
-  gap: 1em;
-  padding: .75em 1em .95em;
-  color: #667085;
-  font-size: .82em;
-  line-height: 1.35;
-
-  span:last-child {
-    color: #7b8794;
-    text-align: right;
-  }
-}
-
 @keyframes visitor-pin-in {
   from {
     opacity: 0;
@@ -327,27 +277,17 @@
 }
 
 @include breakpoint(max-width $small) {
-  .visitor-map__welcome {
-    align-items: flex-start;
+  .visitor-map__box {
+    align-items: stretch;
     flex-direction: column;
+    padding: .9em;
   }
 
-  .visitor-map__counter {
-    width: 100%;
-    text-align: left;
+  .visitor-map__copy {
+    flex-basis: auto;
   }
 
   .visitor-map__canvas {
-    min-height: 220px;
-  }
-
-  .visitor-map__note {
-    flex-direction: column;
-    gap: .2em;
-    padding: .7em .85em .85em;
-
-    span:last-child {
-      text-align: left;
-    }
+    width: 100%;
   }
 }

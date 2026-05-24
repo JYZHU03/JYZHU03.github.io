@@ -3,34 +3,34 @@
 updated: "2026-05"
 pins:
   - label: "Central Europe"
-    x: 505
-    y: 153
+    x: 512
+    y: 94
     size: "large"
   - label: "Western Europe"
-    x: 463
-    y: 148
+    x: 470
+    y: 99
     size: "medium"
   - label: "North America"
-    x: 258
-    y: 168
+    x: 295
+    y: 122
     size: "medium"
-  - label: "Midwest US"
-    x: 221
-    y: 158
+  - label: "North America"
+    x: 229
+    y: 112
     size: "small"
   - label: "East Asia"
-    x: 733
-    y: 175
+    x: 762
+    y: 115
     size: "medium"
   - label: "Japan"
-    x: 805
-    y: 198
+    x: 828
+    y: 120
     size: "medium"
   - label: "Southeast Asia"
-    x: 692
-    y: 265
+    x: 738
+    y: 216
     size: "small"
   - label: "Australia"
-    x: 824
-    y: 369
+    x: 831
+    y: 319
     size: "small"

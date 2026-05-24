@@ -15,7 +15,7 @@ google_scholar_stats_use_cdn : true
 visitor_map:
   enabled          : true
   title            : "Visitors"
-  subtitle         : "Thank you for visiting my academic homepage."
+  subtitle         : "Thanks for stopping by."
   counter:
     enabled        : true
     provider       : "busuanzi"
