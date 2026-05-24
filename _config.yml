@@ -11,15 +11,15 @@ description              : "Ph.D. Candidate in the Department of Computer Scienc
 repository               : "JYZHU03/JYZHU03.github.io"
 google_scholar_stats_use_cdn : true
 
-# Visible visitor map shown near the bottom of the homepage.
+# Polished visitor map shown near the bottom of the homepage.
 visitor_map:
   enabled          : true
-  provider         : "smallcounter" # smallcounter works immediately; clustrmaps needs clustrmaps_id.
-  smallcounter_id  : "1777584142"
-  smallcounter_type: "180"
-  clustrmaps_id    :
-  clustrmaps_width : "320"
-  clustrmaps_color : "ffffff"
+  title            : "Visitors"
+  subtitle         : "Thank you for visiting my academic homepage."
+  counter:
+    enabled        : true
+    provider       : "busuanzi"
+    script_url     : "https://api.busuanzi.cc/static/3.6.9/busuanzi.min.js"
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/

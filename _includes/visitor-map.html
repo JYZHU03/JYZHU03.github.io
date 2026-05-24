@@ -1,29 +1,81 @@
 {% assign visitor_map = site.visitor_map %}
+{% assign visitor_map_data = site.data.visitor_map %}
+{% assign visitor_pins = visitor_map_data.pins %}
 {% if visitor_map and visitor_map.enabled %}
-<div class="visitor-map">
-  <h1 id="visitor-map">🌎 Visitor Map</h1>
-  <div class="visitor-map__widget">
-    {% if visitor_map.provider == "clustrmaps" and visitor_map.clustrmaps_id and visitor_map.clustrmaps_id != "" %}
-      <script type="text/javascript"
-              id="clustrmaps"
-              src="https://cdn.clustrmaps.com/map_v2.js?cl={{ visitor_map.clustrmaps_color | default: 'ffffff' }}&amp;w={{ visitor_map.clustrmaps_width | default: '320' }}&amp;t=tt&amp;d={{ visitor_map.clustrmaps_id }}">
-      </script>
-    {% elsif visitor_map.provider == "smallcounter" and visitor_map.smallcounter_id and visitor_map.smallcounter_id != "" %}
-      <a class="visitor-map__link"
-         href="https://smallcounter.com/vmap/{{ visitor_map.smallcounter_id }}/"
-         target="_blank"
-         rel="noopener noreferrer"
-         title="World visitor map">
-        <img src="https://smallcounter.com/map/view.php?type={{ visitor_map.smallcounter_type | default: '180' }}&amp;id={{ visitor_map.smallcounter_id }}"
-             alt="World visitor map"
-             loading="lazy">
-      </a>
-      <div class="visitor-map__credit">
-        <a href="https://smallcounter.com" target="_blank" rel="noopener noreferrer">map counter</a>
+<section class="visitor-map" aria-labelledby="visitor-map-title">
+  <div class="visitor-map__welcome">
+    <div>
+      <h1 id="visitor-map-title">{{ visitor_map.title | default: "Visitor Map" }}</h1>
+      {% if visitor_map.subtitle and visitor_map.subtitle != "" %}
+        <p>{{ visitor_map.subtitle }}</p>
+      {% endif %}
+    </div>
+    {% if visitor_map.counter and visitor_map.counter.enabled %}
+      <div class="visitor-map__counter" aria-live="polite">
+        <span>You are visitor</span>
+        <strong>No. <span id="busuanzi_site_uv">...</span></strong>
       </div>
-    {% else %}
-      <p class="visitor-map__empty">Visitor map is enabled, but no provider ID is configured.</p>
     {% endif %}
   </div>
-</div>
+
+  <div class="visitor-map__panel">
+    <svg class="visitor-map__canvas" viewBox="0 0 960 460" role="img" aria-labelledby="visitor-map-svg-title visitor-map-svg-desc">
+      <title id="visitor-map-svg-title">World visitor map</title>
+      <desc id="visitor-map-svg-desc">A clear two-dimensional world map with broad academic visitor region pins.</desc>
+      <defs>
+        <linearGradient id="visitor-map-ocean" x1="0" x2="1" y1="0" y2="1">
+          <stop offset="0%" stop-color="#fbfdff"/>
+          <stop offset="56%" stop-color="#eef6fb"/>
+          <stop offset="100%" stop-color="#f7fafc"/>
+        </linearGradient>
+        <linearGradient id="visitor-map-land" x1="0" x2="1" y1="0" y2="1">
+          <stop offset="0%" stop-color="#b8d0df"/>
+          <stop offset="100%" stop-color="#dce9ef"/>
+        </linearGradient>
+      </defs>
+
+      <rect class="visitor-map__ocean" x="0" y="0" width="960" height="460" rx="22"/>
+      <g class="visitor-map__grid" aria-hidden="true">
+        <path d="M120 0v460M240 0v460M360 0v460M480 0v460M600 0v460M720 0v460M840 0v460"/>
+        <path d="M0 92h960M0 184h960M0 276h960M0 368h960"/>
+      </g>
+
+      <g class="visitor-map__continents" aria-hidden="true">
+        <path d="M116 122c34-43 102-63 159-42 43 16 75 44 79 79 5 42-42 52-76 67-39 17-45 57-86 55-38-2-48-44-80-61-33-18-72-24-74-55-1-17 34-34 78-43z"/>
+        <path d="M314 250c40 17 67 52 70 93 2 32-19 48-27 78-8 31-41 43-62 18-18-22 3-52-11-81-13-26-39-43-35-73 4-28 32-48 65-35z"/>
+        <path d="M303 66c43-36 105-38 134-5 26 30-9 60-63 58-49-2-115-16-71-53z"/>
+        <path d="M459 128c38-27 89-24 113 5 21 24 2 52-43 52-35 0-86-12-95-29-5-10 4-20 25-28z"/>
+        <path d="M512 190c58-11 111 33 117 93 5 49-31 92-77 111-43 18-72-13-68-66 3-39-28-64-17-101 7-24 20-33 45-37z"/>
+        <path d="M565 112c70-48 173-51 260-8 71 35 92 96 45 133-41 33-98 14-148 7-66-9-108 21-158-11-48-31-48-88 1-121z"/>
+        <path d="M724 318c57-25 126-3 146 35 13 24-14 48-58 45-53-4-104-33-110-58-2-10 6-17 22-22z"/>
+        <path d="M836 251c18-7 39 0 46 14 7 15-8 29-30 27-22-2-38-14-35-27 1-6 8-11 19-14z"/>
+      </g>
+
+      <g class="visitor-map__rings" aria-hidden="true">
+        <ellipse cx="480" cy="230" rx="390" ry="145"/>
+        <ellipse cx="480" cy="230" rx="300" ry="105"/>
+      </g>
+
+      {% for pin in visitor_pins %}
+        <g class="visitor-map__pin visitor-map__pin--{{ pin.size | default: 'medium' }}"
+           style="--pin-delay: {{ forloop.index0 | times: 80 }}ms"
+           transform="translate({{ pin.x }}, {{ pin.y }})">
+          <title>{{ pin.label }}</title>
+          <circle class="visitor-map__pin-pulse" cx="0" cy="0" r="18"/>
+          <path class="visitor-map__pin-marker" d="M0-28c-12 0-22 9-22 21 0 17 22 39 22 39S22 10 22-7C22-19 12-28 0-28z"/>
+          <circle class="visitor-map__pin-core" cx="0" cy="-7" r="6"/>
+        </g>
+      {% endfor %}
+    </svg>
+
+    <div class="visitor-map__note">
+      <span>Welcome from wherever you are.</span>
+      <span>Only an anonymous total is shown here.</span>
+    </div>
+  </div>
+
+  {% if visitor_map.counter and visitor_map.counter.enabled and visitor_map.counter.provider == "busuanzi" %}
+    <script src="{{ visitor_map.counter.script_url }}" defer></script>
+  {% endif %}
+</section>
 {% endif %}

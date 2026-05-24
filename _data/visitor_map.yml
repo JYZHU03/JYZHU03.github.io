@@ -1,0 +1,36 @@
+# This file drives the homepage visitor map. The pins are intentionally broad
+# academic-region markers, not a precise public log of individual visitors.
+updated: "2026-05"
+pins:
+  - label: "Central Europe"
+    x: 505
+    y: 153
+    size: "large"
+  - label: "Western Europe"
+    x: 463
+    y: 148
+    size: "medium"
+  - label: "North America"
+    x: 258
+    y: 168
+    size: "medium"
+  - label: "Midwest US"
+    x: 221
+    y: 158
+    size: "small"
+  - label: "East Asia"
+    x: 733
+    y: 175
+    size: "medium"
+  - label: "Japan"
+    x: 805
+    y: 198
+    size: "medium"
+  - label: "Southeast Asia"
+    x: 692
+    y: 265
+    size: "small"
+  - label: "Australia"
+    x: 824
+    y: 369
+    size: "small"
