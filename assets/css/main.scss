@@ -161,3 +161,58 @@
   background: #00369f;
   font-size: .8em;
 }
+
+.visitor-map {
+  margin: 2.2em 0 0;
+  padding-top: .4em;
+
+  h1 {
+    margin-bottom: 1em;
+  }
+}
+
+.visitor-map__widget {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.2em;
+  border: 1px solid #e8e8e8;
+  background: #fbfcfd;
+  box-shadow: 0 8px 22px rgba(31, 41, 55, .08);
+}
+
+.visitor-map__link {
+  display: inline-flex;
+  max-width: 100%;
+  text-decoration: none !important;
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border: 0;
+  }
+}
+
+.visitor-map__credit {
+  margin-top: .5em;
+  font-size: .75em;
+  line-height: 1;
+
+  a {
+    color: #8a8f98;
+    text-decoration: none;
+
+    &:hover {
+      color: #4f5965;
+      text-decoration: underline;
+    }
+  }
+}
+
+.visitor-map__empty {
+  margin: 0;
+  color: #666;
+  font-size: .9em;
+}

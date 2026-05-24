@@ -1,0 +1,29 @@
+{% assign visitor_map = site.visitor_map %}
+{% if visitor_map and visitor_map.enabled %}
+<div class="visitor-map">
+  <h1 id="visitor-map">🌎 Visitor Map</h1>
+  <div class="visitor-map__widget">
+    {% if visitor_map.provider == "clustrmaps" and visitor_map.clustrmaps_id and visitor_map.clustrmaps_id != "" %}
+      <script type="text/javascript"
+              id="clustrmaps"
+              src="https://cdn.clustrmaps.com/map_v2.js?cl={{ visitor_map.clustrmaps_color | default: 'ffffff' }}&amp;w={{ visitor_map.clustrmaps_width | default: '320' }}&amp;t=tt&amp;d={{ visitor_map.clustrmaps_id }}">
+      </script>
+    {% elsif visitor_map.provider == "smallcounter" and visitor_map.smallcounter_id and visitor_map.smallcounter_id != "" %}
+      <a class="visitor-map__link"
+         href="https://smallcounter.com/vmap/{{ visitor_map.smallcounter_id }}/"
+         target="_blank"
+         rel="noopener noreferrer"
+         title="World visitor map">
+        <img src="https://smallcounter.com/map/view.php?type={{ visitor_map.smallcounter_type | default: '180' }}&amp;id={{ visitor_map.smallcounter_id }}"
+             alt="World visitor map"
+             loading="lazy">
+      </a>
+      <div class="visitor-map__credit">
+        <a href="https://smallcounter.com" target="_blank" rel="noopener noreferrer">map counter</a>
+      </div>
+    {% else %}
+      <p class="visitor-map__empty">Visitor map is enabled, but no provider ID is configured.</p>
+    {% endif %}
+  </div>
+</div>
+{% endif %}
