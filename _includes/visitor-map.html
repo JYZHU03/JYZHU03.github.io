@@ -11,7 +11,8 @@
       {% endif %}
       {% if visitor_map.counter and visitor_map.counter.enabled %}
         <p class="visitor-map__counter" aria-live="polite">
-          You are the <strong><span id="busuanzi_site_uv">...</span></strong> visitor.
+          You are visitor <strong>No. <span id="busuanzi_site_uv">...</span></strong>.
+          This page has been viewed <strong><span id="busuanzi_page_pv">...</span></strong> times.
         </p>
       {% endif %}
     </div>
@@ -28,10 +29,13 @@
         <g class="visitor-map__pin visitor-map__pin--{{ pin.size | default: 'medium' }}"
            style="--pin-delay: {{ forloop.index0 | times: 80 }}ms"
            transform="translate({{ pin.x }}, {{ pin.y }})">
-          <title>{{ pin.label }}</title>
+          <title>{{ pin.label }}{% if pin.count and pin.count != "" %}: {{ pin.count }} visits{% endif %}</title>
           <circle class="visitor-map__pin-pulse" cx="0" cy="0" r="18"/>
           <path class="visitor-map__pin-marker" d="M0-28c-12 0-22 9-22 21 0 17 22 39 22 39S22 10 22-7C22-19 12-28 0-28z"/>
           <circle class="visitor-map__pin-core" cx="0" cy="-7" r="6"/>
+          {% if pin.count and pin.count != "" %}
+            <text class="visitor-map__pin-count" x="19" y="-21">{{ pin.count }}</text>
+          {% endif %}
         </g>
       {% endfor %}
     </svg>

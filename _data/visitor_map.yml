@@ -1,36 +1,46 @@
 # This file drives the homepage visitor map. The pins are intentionally broad
 # academic-region markers, not a precise public log of individual visitors.
+# Fill count with aggregate location counts from Google Analytics, ClustrMaps,
+# or server logs when available. Blank counts render as neutral location pins.
 updated: "2026-05"
 pins:
   - label: "Central Europe"
     x: 512
     y: 94
+    count:
     size: "large"
   - label: "Western Europe"
     x: 470
     y: 99
+    count:
     size: "medium"
   - label: "North America"
     x: 295
     y: 122
+    count:
     size: "medium"
   - label: "North America"
     x: 229
     y: 112
+    count:
     size: "small"
   - label: "East Asia"
     x: 762
     y: 115
+    count:
     size: "medium"
   - label: "Japan"
     x: 828
     y: 120
+    count:
     size: "medium"
   - label: "Southeast Asia"
     x: 738
     y: 216
+    count:
     size: "small"
   - label: "Australia"
     x: 831
     y: 319
+    count:
     size: "small"

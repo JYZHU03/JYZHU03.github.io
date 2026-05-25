@@ -19,7 +19,7 @@ visitor_map:
   counter:
     enabled        : true
     provider       : "busuanzi"
-    script_url     : "https://api.busuanzi.cc/static/3.6.9/busuanzi.min.js"
+    script_url     : "https://cdn.busuanzi.cc/busuanzi/3.6.9/busuanzi.min.js"
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/

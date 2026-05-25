@@ -199,6 +199,7 @@
 
 .visitor-map__counter {
   color: #344054;
+  max-width: 13em;
 
   strong {
     color: #18344f;
@@ -248,8 +249,19 @@
   opacity: .96;
 }
 
+.visitor-map__pin-count {
+  fill: #344054;
+  font-family: $sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  paint-order: stroke;
+  stroke: #fff;
+  stroke-width: 5;
+  stroke-linejoin: round;
+}
+
 .visitor-map__pin--large .visitor-map__pin-pulse {
-  r: 24;
+  r: 26;
 }
 
 .visitor-map__pin--large .visitor-map__pin-marker {
