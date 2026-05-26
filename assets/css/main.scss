@@ -199,7 +199,7 @@
 
 .visitor-map__counter {
   color: #344054;
-  max-width: 13em;
+  max-width: 14em;
 
   strong {
     color: #18344f;
@@ -214,6 +214,39 @@
   max-width: 34em;
   height: auto;
   min-width: 0;
+}
+
+.visitor-map__legend {
+  align-self: flex-end;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35em .8em;
+  color: #667085;
+  font-size: .72em;
+  line-height: 1.2;
+}
+
+.visitor-map__legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: .34em;
+}
+
+.visitor-map__legend-dot {
+  display: inline-block;
+  width: .65em;
+  height: .65em;
+  border-radius: 999px;
+  box-shadow: 0 0 0 3px rgba(194, 65, 75, .12);
+}
+
+.visitor-map__legend-dot--visits {
+  background: #c2414b;
+}
+
+.visitor-map__legend-dot--current {
+  background: #1f9d63;
+  box-shadow: 0 0 0 3px rgba(31, 157, 99, .16);
 }
 
 .visitor-map__ocean {
@@ -235,6 +268,11 @@
 .visitor-map__pin-pulse {
   fill: #c2414b;
   opacity: .12;
+}
+
+.visitor-map__pin-dot {
+  fill: #c2414b;
+  opacity: .28;
 }
 
 .visitor-map__pin-marker {
@@ -276,6 +314,35 @@
   transform: scale(.86);
 }
 
+.visitor-map__pin--current {
+  opacity: 0;
+  transition: opacity .35s ease;
+
+  .visitor-map__pin-pulse {
+    fill: #2ca86f;
+    opacity: .2;
+  }
+
+  .visitor-map__pin-marker {
+    fill: #1f9d63;
+  }
+
+  .visitor-map__current-label {
+    fill: #1f5138;
+    font-family: $sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    paint-order: stroke;
+    stroke: #fff;
+    stroke-linejoin: round;
+    stroke-width: 5;
+  }
+}
+
+.visitor-map__pin--current.is-visible {
+  opacity: 1;
+}
+
 @keyframes visitor-pin-in {
   from {
     opacity: 0;
@@ -301,5 +368,9 @@
 
   .visitor-map__canvas {
     width: 100%;
+  }
+
+  .visitor-map__legend {
+    align-self: flex-start;
   }
 }

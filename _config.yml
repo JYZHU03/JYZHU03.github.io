@@ -20,6 +20,9 @@ visitor_map:
     enabled        : true
     provider       : "busuanzi"
     script_url     : "https://cdn.busuanzi.cc/busuanzi/3.6.9/busuanzi.min.js"
+  current_location:
+    enabled        : true
+    endpoint       : "https://ipapi.co/json/"
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
