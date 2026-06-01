@@ -38,7 +38,7 @@ Please feel free to contact me if you are interested in any collaboration.
 # 📝 Selected Publications
 <small><sup>*</sup> Corresponding author.</small>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2025</div><img src='images/ICML2025.png' alt="sym" width="100%" height="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src='images/ICML2026.png' alt="sym" width="100%" height="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [//]: # ([Deep Residual Learning for Image Recognition]&#40;https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf&#41;)
