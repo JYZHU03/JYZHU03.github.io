@@ -1,46 +1,128 @@
-# This file drives the homepage visitor map. The pins are intentionally broad
-# academic-region markers, not a precise public log of individual visitors.
+# This file drives the homepage visitor map. The pins are intentionally
+# approximate region-level markers, not a precise public log of individual
+# visitors. Province/state-scale regions are fine; avoid exact addresses or
+# city-level tracking unless there is an explicit reason to show them.
 # Fill count with aggregate location counts from Google Analytics, ClustrMaps,
 # or server logs when available. Blank counts render as neutral location pins.
-updated: "2026-05"
+updated: "2026-06"
 pins:
-  - label: "Central Europe"
-    x: 512
+  - label: "Berlin / Brandenburg"
+    x: 514
+    y: 93
+    count:
+    size: "medium"
+  - label: "North Rhine-Westphalia"
+    x: 499
+    y: 95
+    count:
+    size: "tiny"
+  - label: "Bavaria"
+    x: 509
+    y: 102
+    count:
+    size: "tiny"
+  - label: "Netherlands / Flanders"
+    x: 493
     y: 94
     count:
-    size: "large"
-  - label: "Western Europe"
-    x: 470
-    y: 99
+    size: "tiny"
+  - label: "Greater Paris"
+    x: 486
+    y: 102
     count:
-    size: "medium"
-  - label: "North America"
+    size: "tiny"
+  - label: "England"
+    x: 476
+    y: 93
+    count:
+    size: "tiny"
+  - label: "Northern Italy"
+    x: 503
+    y: 110
+    count:
+    size: "tiny"
+  - label: "California"
+    x: 174
+    y: 128
+    count:
+    size: "small"
+  - label: "US East Coast"
     x: 295
-    y: 122
-    count:
-    size: "medium"
-  - label: "North America"
-    x: 229
-    y: 112
+    y: 121
     count:
     size: "small"
-  - label: "East Asia"
-    x: 762
-    y: 115
+  - label: "Illinois / Midwest US"
+    x: 260
+    y: 118
     count:
-    size: "medium"
-  - label: "Japan"
-    x: 828
-    y: 120
+    size: "tiny"
+  - label: "Ontario / Quebec"
+    x: 283
+    y: 114
     count:
-    size: "medium"
-  - label: "Southeast Asia"
-    x: 738
-    y: 216
+    size: "tiny"
+  - label: "Texas"
+    x: 238
+    y: 144
+    count:
+    size: "tiny"
+  - label: "Beijing / Hebei"
+    x: 771
+    y: 123
     count:
     size: "small"
-  - label: "Australia"
-    x: 831
-    y: 319
+  - label: "Shaanxi"
+    x: 753
+    y: 137
+    count:
+    size: "tiny"
+  - label: "Shanghai / Yangtze Delta"
+    x: 784
+    y: 144
     count:
     size: "small"
+  - label: "Guangdong"
+    x: 763
+    y: 163
+    count:
+    size: "tiny"
+  - label: "Taiwan"
+    x: 783
+    y: 161
+    count:
+    size: "tiny"
+  - label: "Seoul Area"
+    x: 798
+    y: 129
+    count:
+    size: "tiny"
+  - label: "Japan Kanto"
+    x: 829
+    y: 133
+    count:
+    size: "small"
+  - label: "Japan Kansai"
+    x: 819
+    y: 136
+    count:
+    size: "tiny"
+  - label: "Thailand"
+    x: 731
+    y: 186
+    count:
+    size: "tiny"
+  - label: "Singapore"
+    x: 740
+    y: 215
+    count:
+    size: "small"
+  - label: "New South Wales"
+    x: 858
+    y: 300
+    count:
+    size: "small"
+  - label: "Victoria"
+    x: 842
+    y: 309
+    count:
+    size: "tiny"

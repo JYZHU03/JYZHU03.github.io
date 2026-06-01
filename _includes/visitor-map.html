@@ -31,16 +31,14 @@
       </g>
 
       {% for pin in visitor_pins %}
-        <g class="visitor-map__pin visitor-map__pin--{{ pin.size | default: 'medium' }}"
+        <g class="visitor-map__region-pin visitor-map__region-pin--{{ pin.size | default: 'small' }}"
            style="--pin-delay: {{ forloop.index0 | times: 80 }}ms"
            transform="translate({{ pin.x }}, {{ pin.y }})">
           <title>{{ pin.label }}{% if pin.count and pin.count != "" %}: {{ pin.count }} visits{% endif %}</title>
-          <circle class="visitor-map__pin-dot" cx="0" cy="0" r="7"/>
-          <circle class="visitor-map__pin-pulse" cx="0" cy="0" r="18"/>
-          <path class="visitor-map__pin-marker" d="M0-28c-12 0-22 9-22 21 0 17 22 39 22 39S22 10 22-7C22-19 12-28 0-28z"/>
-          <circle class="visitor-map__pin-core" cx="0" cy="-7" r="6"/>
+          <circle class="visitor-map__region-halo" cx="0" cy="0" r="6"/>
+          <circle class="visitor-map__region-dot" cx="0" cy="0" r="3"/>
           {% if pin.count and pin.count != "" %}
-            <text class="visitor-map__pin-count" x="19" y="-21">{{ pin.count }}</text>
+            <text class="visitor-map__region-count" x="8" y="-7">{{ pin.count }}</text>
           {% endif %}
         </g>
       {% endfor %}
@@ -57,7 +55,7 @@
     </svg>
 
     <div class="visitor-map__legend" aria-label="Visitor map legend">
-      <span><i class="visitor-map__legend-dot visitor-map__legend-dot--visits"></i>aggregate visits</span>
+      <span><i class="visitor-map__legend-dot visitor-map__legend-dot--visits"></i>visited regions</span>
       {% if visitor_map.current_location and visitor_map.current_location.enabled %}
         <span><i class="visitor-map__legend-dot visitor-map__legend-dot--current"></i>your approximate location</span>
       {% endif %}

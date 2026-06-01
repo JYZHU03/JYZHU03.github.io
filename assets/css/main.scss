@@ -260,19 +260,65 @@
   stroke-width: .9;
 }
 
-.visitor-map__pin {
+.visitor-map__region-pin {
   animation: visitor-pin-in .5s ease both;
   animation-delay: var(--pin-delay);
+}
+
+.visitor-map__region-halo {
+  fill: #c2414b;
+  opacity: .16;
+}
+
+.visitor-map__region-dot {
+  fill: #c2414b;
+  stroke: #fff;
+  stroke-width: 1.5;
+  paint-order: stroke;
+}
+
+.visitor-map__region-count {
+  fill: #344054;
+  font-family: $sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  paint-order: stroke;
+  stroke: #fff;
+  stroke-width: 3;
+  stroke-linejoin: round;
+}
+
+.visitor-map__region-pin--large .visitor-map__region-halo {
+  r: 8;
+}
+
+.visitor-map__region-pin--large .visitor-map__region-dot {
+  r: 4;
+}
+
+.visitor-map__region-pin--medium .visitor-map__region-halo {
+  r: 7;
+}
+
+.visitor-map__region-pin--medium .visitor-map__region-dot {
+  r: 3.5;
+}
+
+.visitor-map__region-pin--tiny .visitor-map__region-halo {
+  r: 4.5;
+}
+
+.visitor-map__region-pin--tiny .visitor-map__region-dot {
+  r: 2.3;
+}
+
+.visitor-map__pin {
+  animation: visitor-pin-in .5s ease both;
 }
 
 .visitor-map__pin-pulse {
   fill: #c2414b;
   opacity: .12;
-}
-
-.visitor-map__pin-dot {
-  fill: #c2414b;
-  opacity: .28;
 }
 
 .visitor-map__pin-marker {
@@ -285,33 +331,6 @@
 .visitor-map__pin-core {
   fill: #fff;
   opacity: .96;
-}
-
-.visitor-map__pin-count {
-  fill: #344054;
-  font-family: $sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  paint-order: stroke;
-  stroke: #fff;
-  stroke-width: 5;
-  stroke-linejoin: round;
-}
-
-.visitor-map__pin--large .visitor-map__pin-pulse {
-  r: 26;
-}
-
-.visitor-map__pin--large .visitor-map__pin-marker {
-  transform: scale(1.12);
-}
-
-.visitor-map__pin--small .visitor-map__pin-pulse {
-  r: 14;
-}
-
-.visitor-map__pin--small .visitor-map__pin-marker {
-  transform: scale(.86);
 }
 
 .visitor-map__pin--current {
