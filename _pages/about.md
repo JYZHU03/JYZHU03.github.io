@@ -28,7 +28,8 @@ My research is situated at the intersection of artificial intelligence, graph th
 Please feel free to contact me if you are interested in any collaboration.
 
 # 🔥 News
-- *04.2026*: &nbsp;🎉🎉 One paper on landscapes learning for synchronization networks was accepted to **ICML 2026**! 
+- *05.2026*: &nbsp;🎉🎉 One paper on landscapes learning for synchronization networks was accepted to **ICML 2026**! 
+- *04.2026*: &nbsp;🎉🎉 One paper on robust graph learning for fake news detection was accepted to **IEEE TKDE**! 
 - *10.2025*: &nbsp;🎉🎉 One paper on AI for power grids was accepted to **IEEE TKDE**! 
 - *05.2025*: &nbsp;🎉🎉 One paper on graph representation learning was accepted to **ICML 2025**! 
 - *04.2025*: &nbsp; I have officially joined the ‘Explainable AI for Dynamic Stability Assessment’ project at PIK!
@@ -36,7 +37,7 @@ Please feel free to contact me if you are interested in any collaboration.
 
 
 # 📝 Selected Publications
-<small><sup>*</sup> Corresponding author.</small>
+<small><sup style="font-size: 0.9em; font-weight: 700;">*</sup> Corresponding author.</small>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src='images/ICML2026.png' alt="sym" width="100%" height="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -44,7 +45,7 @@ Please feel free to contact me if you are interested in any collaboration.
 [//]: # ([Deep Residual Learning for Image Recognition]&#40;https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf&#41;)
 **Learning Dynamic Stability Landscapes in Synchronization Networks**
 
-Christian Nauck, **Junyou Zhu**<sup>*</sup>, Michael Lindner, Frank Hellmann
+Christian Nauck, **Junyou Zhu**<sup style="font-size: 0.9em; font-weight: 700;">*</sup>, Michael Lindner, Frank Hellmann
 
 *In Proceedings of the 43rd International Conference on Machine Learning.* (**ICML 2026**) 
 
