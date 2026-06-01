@@ -28,7 +28,7 @@ My research is situated at the intersection of artificial intelligence, graph th
 Please feel free to contact me if you are interested in any collaboration.
 
 # 🔥 News
-- *04.2026*: &nbsp;🎉🎉 One paper on robust graph learning for fake news detection was accepted to **IEEE TKDE**! 
+- *04.2026*: &nbsp;🎉🎉 One paper on landscapes learning for synchronization networks was accepted to **ICML 2026**! 
 - *10.2025*: &nbsp;🎉🎉 One paper on AI for power grids was accepted to **IEEE TKDE**! 
 - *05.2025*: &nbsp;🎉🎉 One paper on graph representation learning was accepted to **ICML 2025**! 
 - *04.2025*: &nbsp; I have officially joined the ‘Explainable AI for Dynamic Stability Assessment’ project at PIK!
@@ -36,8 +36,30 @@ Please feel free to contact me if you are interested in any collaboration.
 
 
 # 📝 Selected Publications
+<small><sup>*</sup> Corresponding author.</small>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TKDE</div><img src='images/IEEE_TKDE2026_fake_news.png' alt="sym" width="100%" height="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2025</div><img src='images/ICML2025.png' alt="sym" width="100%" height="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[//]: # ([Deep Residual Learning for Image Recognition]&#40;https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf&#41;)
+**Learning Dynamic Stability Landscapes in Synchronization Networks**
+
+Christian Nauck, **Junyou Zhu**<sup>*</sup>, Michael Lindner, Frank Hellmann
+
+*In Proceedings of the 43rd International Conference on Machine Learning.* (**ICML 2026**) 
+
+[//]: # (*&#40;ICML 2025, CCF-A, Poster Paper&#41;*)
+
+[Paper Link](https://arxiv.org/pdf/2605.23708)
+
+[//]: # ([**Project**]&#40;https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC&#41; <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>)
+
+[//]: # (- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src='images/ICML2026.png' alt="sym" width="100%" height="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [//]: # ([Deep Residual Learning for Image Recognition]&#40;https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf&#41;)
