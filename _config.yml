@@ -15,14 +15,16 @@ google_scholar_stats_use_cdn : true
 visitor_map:
   enabled          : true
   title            : "Visitors"
-  subtitle         : "Thanks for stopping by."
+  subtitle         : "Automatically updated by visitor country."
+  flagcounter:
+    stats_url      : "https://s01.flagcounter.com/more/J7rA"
+    image_url      : "https://s01.flagcounter.com/map/J7rA/size_l/txt_334155/border_DDE7F0/pageviews_0/viewers_3/flags_1/"
   counter:
     enabled        : true
     provider       : "busuanzi"
     script_url     : "https://cdn.busuanzi.cc/busuanzi/3.6.9/busuanzi.min.js"
   current_location:
-    enabled        : true
-    endpoint       : "https://ipapi.co/json/"
+    enabled        : false
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
