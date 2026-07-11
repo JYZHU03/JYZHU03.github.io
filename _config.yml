@@ -14,8 +14,8 @@ google_scholar_stats_use_cdn : true
 # Polished visitor map shown near the bottom of the homepage.
 visitor_map:
   enabled          : true
-  title            : "Visitors"
-  subtitle         : "Automatically updated by visitor country."
+  title            : "Welcome!"
+  subtitle         : "Thank you for stopping by — it is wonderful to see readers visiting from around the world."
   flagcounter:
     stats_url      : "https://s01.flagcounter.com/more/J7rA"
     image_url      : "https://s01.flagcounter.com/map/J7rA/size_l/txt_334155/border_DDE7F0/pageviews_0/viewers_3/flags_1/"

@@ -228,8 +228,15 @@
     display: block;
     width: 100%;
     height: auto;
-    border: 0;
+    border: 1px solid #d9e2ea;
+    border-radius: 7px;
+    filter: saturate(.62) contrast(.9) brightness(1.06);
   }
+}
+
+.visitor-map__counter-detail {
+  color: #7a8796;
+  font-size: .92em;
 }
 
 .visitor-map__legend {
