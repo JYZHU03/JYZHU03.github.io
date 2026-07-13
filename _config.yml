@@ -17,8 +17,8 @@ visitor_map:
   title            : "Welcome!"
   subtitle         : "Thanks for stopping by — it’s lovely to have you here."
   mapmyvisitors:
-    script_url     : "https://mapmyvisitors.com/map.js?d=GofyOV-Ko5ZvOMmDh4yGs2s5SYgmT7ig2NjwcxfvYD4&co=f6f9fc&cl=cad9e4&ct=475467&w=a&t=n"
-    image_url      : "https://mapmyvisitors.com/map.png?d=GofyOV-Ko5ZvOMmDh4yGs2s5SYgmT7ig2NjwcxfvYD4&co=f6f9fc&cl=cad9e4&ct=475467&t=n"
+    script_url     : "https://mapmyvisitors.com/map.js?d=GofyOV-Ko5ZvOMmDh4yGs2s5SYgmT7ig2NjwcxfvYD4&co=f7f9fb&cl=9fb4c5&ct=475467&w=a&t=n"
+    image_url      : "https://mapmyvisitors.com/map.png?d=GofyOV-Ko5ZvOMmDh4yGs2s5SYgmT7ig2NjwcxfvYD4&co=f7f9fb&cl=9fb4c5&ct=475467&t=n"
   counter:
     enabled        : true
     provider       : "busuanzi"

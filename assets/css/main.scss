@@ -217,18 +217,23 @@
 }
 
 .visitor-map__live-map {
+  position: relative;
+  isolation: isolate;
   flex: 1 1 auto;
   display: block;
   width: 100%;
+  aspect-ratio: 2.04;
   max-width: 34em;
   min-width: 0;
   overflow: hidden;
   border: 1px solid #d9e2ea;
   border-radius: 7px;
-  background: #fff;
+  background: #f7f9fb url("/images/visitor-map-base.svg") center / 100% 100% no-repeat;
   line-height: 0;
 
   img {
+    position: relative;
+    z-index: 2;
     display: block;
     width: 100%;
     height: auto;
@@ -240,10 +245,20 @@
   }
 
   #mapmyvisitors-widget {
+    position: relative !important;
+    z-index: 1;
     max-width: 100%;
     margin: 0 auto;
     cursor: default !important;
     pointer-events: none !important;
+  }
+
+  #mapmyvisitors-widget > .mapmyvisitors-map-container {
+    background-color: transparent !important;
+  }
+
+  #mapmyvisitors-widget .mapmyvisitors-map {
+    background-image: none !important;
   }
 }
 
