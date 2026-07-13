@@ -15,18 +15,59 @@
       {% endif %}
     </div>
 
-    <div class="visitor-map__live-map">
+    <div class="visitor-map__live-map"
+         role="img"
+         aria-label="Automatically updated map of approximate visitor locations">
+      <img class="visitor-map__fallback"
+           data-src="{{ visitor_map.mapmyvisitors.image_url }}"
+           hidden
+           alt="">
       <script type="text/javascript"
               id="mapmyvisitors"
               src="{{ visitor_map.mapmyvisitors.script_url }}"></script>
+      <script>
+        (function () {
+          var script = document.currentScript;
+          var container = script.parentElement;
+          var fallback = container.querySelector('.visitor-map__fallback');
+
+          function showFallback() {
+            if (!fallback.getAttribute('src')) {
+              fallback.setAttribute('src', fallback.getAttribute('data-src'));
+            }
+            fallback.hidden = false;
+          }
+
+          function secureWidget() {
+            var widget = container.querySelector('#mapmyvisitors-widget');
+            if (!widget) return false;
+
+            fallback.hidden = true;
+            widget.removeAttribute('href');
+            widget.removeAttribute('target');
+            widget.removeAttribute('title');
+            widget.setAttribute('tabindex', '-1');
+            widget.setAttribute('aria-hidden', 'true');
+            return true;
+          }
+
+          if (!secureWidget()) {
+            var observer = new MutationObserver(function () {
+              if (secureWidget()) observer.disconnect();
+            });
+            observer.observe(container, { childList: true, subtree: true });
+            window.setTimeout(function () {
+              if (!secureWidget()) showFallback();
+            }, 2000);
+          }
+
+          container.addEventListener('click', function (event) {
+            event.preventDefault();
+          });
+        }());
+      </script>
       <noscript>
-        <a href="{{ visitor_map.mapmyvisitors.stats_url }}"
-           target="_blank"
-           rel="noopener noreferrer"
-           aria-label="Open detailed visitor location statistics">
-          <img src="{{ visitor_map.mapmyvisitors.image_url }}"
-               alt="Automatically updated map of approximate visitor locations">
-        </a>
+        <img src="{{ visitor_map.mapmyvisitors.image_url }}" alt="">
       </noscript>
     </div>
 

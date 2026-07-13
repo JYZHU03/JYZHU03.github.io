@@ -234,6 +234,17 @@
     height: auto;
     border: 0;
   }
+
+  .visitor-map__fallback[hidden] {
+    display: none;
+  }
+
+  #mapmyvisitors-widget {
+    max-width: 100%;
+    margin: 0 auto;
+    cursor: default !important;
+    pointer-events: none !important;
+  }
 }
 
 .visitor-map__counter-detail {
