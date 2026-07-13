@@ -222,15 +222,17 @@
   width: 100%;
   max-width: 34em;
   min-width: 0;
+  overflow: hidden;
+  border: 1px solid #d9e2ea;
+  border-radius: 7px;
+  background: #fff;
   line-height: 0;
 
   img {
     display: block;
     width: 100%;
     height: auto;
-    border: 1px solid #d9e2ea;
-    border-radius: 7px;
-    filter: saturate(.62) contrast(.9) brightness(1.06);
+    border: 0;
   }
 }
 

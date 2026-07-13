@@ -15,17 +15,23 @@
       {% endif %}
     </div>
 
-    <a class="visitor-map__live-map"
-       href="{{ visitor_map.flagcounter.stats_url }}"
-       target="_blank"
-       rel="noopener noreferrer"
-       aria-label="Open detailed visitor country statistics">
-      <img src="{{ visitor_map.flagcounter.image_url }}"
-           alt="Automatically updated world map of visitor countries">
-    </a>
+    <div class="visitor-map__live-map">
+      <script type="text/javascript"
+              id="mapmyvisitors"
+              src="{{ visitor_map.mapmyvisitors.script_url }}"></script>
+      <noscript>
+        <a href="{{ visitor_map.mapmyvisitors.stats_url }}"
+           target="_blank"
+           rel="noopener noreferrer"
+           aria-label="Open detailed visitor location statistics">
+          <img src="{{ visitor_map.mapmyvisitors.image_url }}"
+               alt="Automatically updated map of approximate visitor locations">
+        </a>
+      </noscript>
+    </div>
 
     <div class="visitor-map__legend" aria-label="Visitor map legend">
-      <span><i class="visitor-map__legend-dot visitor-map__legend-dot--visits"></i>automatically collected, country-level</span>
+      <span><i class="visitor-map__legend-dot visitor-map__legend-dot--visits"></i>each dot marks an approximate visitor location</span>
     </div>
   </div>
 

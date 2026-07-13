@@ -16,9 +16,10 @@ visitor_map:
   enabled          : true
   title            : "Welcome!"
   subtitle         : "Thank you for stopping by — it is wonderful to see readers visiting from around the world."
-  flagcounter:
-    stats_url      : "https://s01.flagcounter.com/more/J7rA"
-    image_url      : "https://s01.flagcounter.com/map/J7rA/size_l/txt_334155/border_DDE7F0/pageviews_0/viewers_3/flags_1/"
+  mapmyvisitors:
+    stats_url      : "https://mapmyvisitors.com/web/1c6i8"
+    script_url     : "https://mapmyvisitors.com/map.js?d=GofyOV-Ko5ZvOMmDh4yGs2s5SYgmT7ig2NjwcxfvYD4&co=f6f9fc&cl=cad9e4&ct=475467&w=a"
+    image_url      : "https://mapmyvisitors.com/map.png?d=GofyOV-Ko5ZvOMmDh4yGs2s5SYgmT7ig2NjwcxfvYD4&co=f6f9fc&cl=cad9e4&ct=475467"
   counter:
     enabled        : true
     provider       : "busuanzi"
