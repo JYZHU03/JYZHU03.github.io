@@ -76,20 +76,27 @@ Christian Nauck, **Junyou Zhu**<sup style="font-size: 0.9em; font-weight: 700;">
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TKDE</div><img src='images/IEEE_TKDE2026_fake_news.png' alt="sym" width="100%" height="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+[//]: # (<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TKDE</div><img src='images/IEEE_TKDE2026_fake_news.png' alt="sym" width="100%" height="100%"></div></div>)
 
-[//]: # ([Deep Residual Learning for Image Recognition]&#40;https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf&#41;)
-**Noise-Filtering Enhanced Graph Transformer for Robust Fake News Detection**
+[//]: # (<div class='paper-box-text' markdown="1">)
 
-**Junyou Zhu**, Chao Gao, Ze Yin, Xianghua Li, Zhen Wang, Jürgen Kurths
+[//]: # ()
+[//]: # ([//]: # &#40;[Deep Residual Learning for Image Recognition]&#40;https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf&#41;&#41;)
+[//]: # (**Noise-Filtering Enhanced Graph Transformer for Robust Fake News Detection**)
 
-*IEEE Transactions on Knowledge and Data Engineering (2026): early access*. (**IEEE TKDE**)
+[//]: # ()
+[//]: # (**Junyou Zhu**, Chao Gao, Ze Yin, Xianghua Li, Zhen Wang, Jürgen Kurths)
 
-[Paper Link](https://ieeexplore.ieee.org/document/11455959)
+[//]: # ()
+[//]: # (*IEEE Transactions on Knowledge and Data Engineering &#40;2026&#41;: early access*. &#40;**IEEE TKDE**&#41;)
 
-</div>
-</div>
+[//]: # ()
+[//]: # ([Paper Link]&#40;https://ieeexplore.ieee.org/document/11455959&#41;)
+
+[//]: # ()
+[//]: # (</div>)
+
+[//]: # (</div>)
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TKDE</div><img src='images/IEEE_TKDE_grid.png' alt="sym" width="100%" height="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -143,20 +150,28 @@ Christian Nauck, **Junyou Zhu**<sup style="font-size: 0.9em; font-weight: 700;">
 [Paper Link](https://dl.acm.org/doi/abs/10.1145/3637528.3672024)
 </div>
 </div>
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TCYB</div><img src='images/IEEE TCYB.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
 
-**A Novel Representation Learning For Dynamic Graphs Based On Graph Convolutional Networks**
+[//]: # (<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TCYB</div><img src='images/IEEE TCYB.png' alt="sym" width="100%"></div></div>)
 
-Chao Gao, **Junyou Zhu**, Fan Zhang, Zhen Wang, Xuelong Li
+[//]: # (<div class='paper-box-text' markdown="1">)
 
-*IEEE Transactions on Cybernetics 53.6 (2023): 3599-3612.* (**IEEE TCYB**) 
+[//]: # ()
+[//]: # (**A Novel Representation Learning For Dynamic Graphs Based On Graph Convolutional Networks**)
 
-[//]: # (*&#40;IF: 9.4, JCR Q1, CCF-B&#41;*)
+[//]: # ()
+[//]: # (Chao Gao, **Junyou Zhu**, Fan Zhang, Zhen Wang, Xuelong Li)
 
-[Paper Link](https://ieeexplore.ieee.org/abstract/document/9743367)
-</div>
-</div>
+[//]: # ()
+[//]: # (*IEEE Transactions on Cybernetics 53.6 &#40;2023&#41;: 3599-3612.* &#40;**IEEE TCYB**&#41; )
+
+[//]: # ()
+[//]: # ([//]: # &#40;*&#40;IF: 9.4, JCR Q1, CCF-B&#41;*&#41;)
+[//]: # ()
+[//]: # ([Paper Link]&#40;https://ieeexplore.ieee.org/abstract/document/9743367&#41;)
+
+[//]: # (</div>)
+
+[//]: # (</div>)
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TNSE</div><img src='images/IEEE TNSE.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -185,20 +200,28 @@ Chao Gao, **Junyou Zhu**, Fan Zhang, Zhen Wang, Xuelong Li
 [Paper Link](https://iopscience.iop.org/article/10.1088/1367-2630/ac2fbd/pdf)
 </div>
 </div>
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TKDE</div><img src='images/IEEE TKDE_Community.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
 
-**Evolutionary Markov Dynamics For Network Community Detection**
+[//]: # (<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TKDE</div><img src='images/IEEE TKDE_Community.png' alt="sym" width="100%"></div></div>)
 
-Zhen Wang, Chunyu Wang, Xianghua Li, Chao Gao, Xuelong Li, **Junyou Zhu**
+[//]: # (<div class='paper-box-text' markdown="1">)
 
-*IEEE Transactions on Knowledge and Data Engineering 34.3 (2022): 1206-1220*. (**IEEE TKDE**)
+[//]: # ()
+[//]: # (**Evolutionary Markov Dynamics For Network Community Detection**)
 
-[//]: # (*&#40;IF: 8.9, JCR Q1, CCF-A&#41;*)
+[//]: # ()
+[//]: # (Zhen Wang, Chunyu Wang, Xianghua Li, Chao Gao, Xuelong Li, **Junyou Zhu**)
 
-[Paper Link](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9099469)
-</div>
-</div>
+[//]: # ()
+[//]: # (*IEEE Transactions on Knowledge and Data Engineering 34.3 &#40;2022&#41;: 1206-1220*. &#40;**IEEE TKDE**&#41;)
+
+[//]: # ()
+[//]: # ([//]: # &#40;*&#40;IF: 8.9, JCR Q1, CCF-A&#41;*&#41;)
+[//]: # ()
+[//]: # ([Paper Link]&#40;https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9099469&#41;)
+
+[//]: # (</div>)
+
+[//]: # (</div>)
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCNN 2021</div><img src='images/IJCNN 2021.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
