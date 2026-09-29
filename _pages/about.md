@@ -17,15 +17,31 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-**Welcome to my homepage**! I am a third-year Ph.D. candidate in the Machine Learning Group of the Department of Computer Science at Technische Universität Berlin, Germany, supervised by [**Prof. Klaus-Robert Müller**](https://web.ml.tu-berlin.de/author/prof.-dr.-klaus-robert-muller/) and [**Prof. Jürgen Kurths**](https://www.pik-potsdam.de/members/kurths/homepage). 
-In parallel, I am a doctoral researcher at the Potsdam Institute for Climate Impact Research (PIK), working on the project “Explainable AI for Dynamic Stability Assessment” under the guidance of [**Dr. Frank Hellmann**](https://www.pik-potsdam.de/members/hellmann).
+[//]: # (**Welcome to my homepage**! I am a third-year Ph.D. candidate in the Machine Learning Group of the Department of Computer Science at Technische Universität Berlin, Germany, supervised by [**Prof. Klaus-Robert Müller**]&#40;https://web.ml.tu-berlin.de/author/prof.-dr.-klaus-robert-muller/&#41; and [**Prof. Jürgen Kurths**]&#40;https://www.pik-potsdam.de/members/kurths/homepage&#41;. )
 
-My research is situated at the intersection of artificial intelligence, graph theory, and data mining, with a particular emphasis on graph-structured data. Current topics include:
-- Graph Representation Learning (GRL) problems, such as node classification, link prediction, and graph classification.
-- Generative models for graphs, e.g., diffusion models for GRL.
-- AI for scientific problems, including the dynamic stability prediction in complex networks, and the pattern mining of extreme climate events.
+[//]: # ()
+[//]: # (In parallel, I am a doctoral researcher at the Potsdam Institute for Climate Impact Research &#40;PIK&#41;, working on the project “Explainable AI for Dynamic Stability Assessment” under the guidance of [**Dr. Frank Hellmann**]&#40;https://www.pik-potsdam.de/members/hellmann&#41;.)
 
-Please feel free to contact me if you are interested in any collaboration.
+[//]: # ()
+[//]: # (My research is situated at the intersection of artificial intelligence, graph theory, and data mining, with a particular emphasis on graph-structured data. Current topics include:)
+
+[//]: # (- Graph Representation Learning &#40;GRL&#41; problems, such as node classification, link prediction, and graph classification.)
+
+[//]: # ()
+[//]: # (- Generative models for graphs, e.g., diffusion models for GRL.)
+
+[//]: # (- AI for scientific problems, including the dynamic stability prediction in complex networks, and the pattern mining of extreme climate events.)
+
+[//]: # ()
+[//]: # (Please feel free to contact me if you are interested in any collaboration.)
+
+Welcome to my homepage! I am a third-year Ph.D. candidate in the Machine Learning Group at the Department of Computer Science, Technische Universität Berlin, Germany, supervised by [Prof. Klaus-Robert Müller](https://web.ml.tu-berlin.de/author/prof.-dr.-klaus-robert-muller/) and [Prof. Jürgen Kurths](https://www.pik-potsdam.de/members/kurths/homepage).
+In parallel, I am a doctoral researcher at the Potsdam Institute for Climate Impact Research (PIK), working under the guidance of [Dr. Frank Hellmann](https://www.pik-potsdam.de/members/hellmann).
+
+My research focuses on graph machine learning and machine learning for climate science. Current topics include:
+- Graph Representation Learning: theoretical and methodological aspects of node classification, link prediction, and graph classification.
+- Machine Learning for Climate Science: using machine learning to better understand and anticipate changes in climate extremes under global warming, and to assess their impacts, with a particular focus on extreme heat events.
+Please feel free to contact me if you are interested in potential research collaborations.
 
 # 🔥 News
 - *05.2026*: &nbsp;🎉🎉 One paper on landscapes learning for synchronization networks was accepted to **ICML 2026**! 
