@@ -241,8 +241,9 @@ Christian Nauck, **Junyou Zhu**<sup style="font-size: 0.9em; font-weight: 700;">
 
 [//]: # (- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet]&#40;https://github.com&#41;, A, B, C, **CVPR 2020**)
 
-# 🚀 Projects
-- *01.2025-12.2027*,   Explainable AI for Dynamic Stability Assessment.
+[//]: # (# 🚀 Projects)
+
+[//]: # (- *01.2025-12.2027*,   Explainable AI for Dynamic Stability Assessment.)
 
 # 👔 Work Experience
 <div class='project-logo-box'><div class='project-box-image'><div><div class="badge"></div><img src='images/PIK_logo.png' alt="sym" width="100%"></div></div>
